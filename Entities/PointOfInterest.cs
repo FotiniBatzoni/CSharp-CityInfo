@@ -14,13 +14,13 @@ namespace CityInfo.API.Entities
         [MaxLength(50)]
         public string Name { get; set; } = string.Empty;
 
+        [MaxLength(200)]
+        public string Description { get; set; }
 
         [ForeignKey("CityId")]
         public City? City { get; set; } //relate point of interest with city
 
         public int CityId { get; set; }    //foreign key
-
-        //public string? Description { get; set; }
 
         //constructor
         public PointOfInterest(string name)
