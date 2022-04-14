@@ -1,0 +1,5 @@
+2022-04-14 12:25:46.698 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-04-14 12:25:47.165 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.4' with options: None
+2022-04-14 12:25:47.239 +03:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2022-04-14 12:25:47.241 +03:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2022-04-14 12:25:47.291 +03:00 [DBG] 'CityInfoContext' disposed.
