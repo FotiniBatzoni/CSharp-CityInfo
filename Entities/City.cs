@@ -21,7 +21,7 @@ namespace CityInfo.API.Entities
 
         //constractor
         public City(string name)
-        {
+            {
             Name = name;
         }
     }

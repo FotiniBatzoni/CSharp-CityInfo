@@ -1,0 +1,1530 @@
+2022-04-20 14:04:05.782 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-04-20 14:04:05.965 +03:00 [DBG] Hosting starting
+2022-04-20 14:04:06.496 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 8F20BB2A452B4E846954342834C2115C29D01053)
+2022-04-20 14:04:06.602 +03:00 [INF] Now listening on: https://localhost:7107
+2022-04-20 14:04:06.604 +03:00 [INF] Now listening on: http://localhost:5107
+2022-04-20 14:04:06.607 +03:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2022-04-20 14:04:06.609 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-04-20 14:04:06.611 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-04-20 14:04:06.612 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-20 14:04:06.613 +03:00 [INF] Hosting environment: Development
+2022-04-20 14:04:06.614 +03:00 [INF] Content root path: D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\
+2022-04-20 14:04:06.615 +03:00 [DBG] Hosting started
+2022-04-20 14:04:06.907 +03:00 [DBG] Connection id "0HMH2NLUH9UVI" accepted.
+2022-04-20 14:04:06.910 +03:00 [DBG] Connection id "0HMH2NLUH9UVI" started.
+2022-04-20 14:04:06.970 +03:00 [DBG] Connection id "0HMH2NLUH9UVJ" accepted.
+2022-04-20 14:04:06.972 +03:00 [DBG] Connection id "0HMH2NLUH9UVJ" started.
+2022-04-20 14:04:07.290 +03:00 [DBG] Connection id "0HMH2NLUH9UVK" accepted.
+2022-04-20 14:04:07.292 +03:00 [DBG] Connection id "0HMH2NLUH9UVK" started.
+2022-04-20 14:04:07.387 +03:00 [DBG] Connection 0HMH2NLUH9UVK established using the following protocol: "Tls13"
+2022-04-20 14:04:07.478 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7107/swagger/index.html - -
+2022-04-20 14:04:07.534 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-04-20 14:04:07.687 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-04-20 14:04:08.033 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7107/_framework/aspnetcore-browser-refresh.js - -
+2022-04-20 14:04:08.036 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-04-20 14:04:08.043 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7107/swagger/index.html - - - 200 - text/html;charset=utf-8 571.5411ms
+2022-04-20 14:04:08.043 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7107/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 8.8877ms
+2022-04-20 14:04:08.438 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7107/swagger/v1/swagger.json - -
+2022-04-20 14:04:08.670 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7107/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 231.8001ms
+2022-04-20 14:04:13.080 +03:00 [DBG] Connection id "0HMH2NLUH9UVL" accepted.
+2022-04-20 14:04:13.082 +03:00 [DBG] Connection id "0HMH2NLUH9UVL" started.
+2022-04-20 14:04:13.085 +03:00 [DBG] Connection id "0HMH2NLUH9UVM" accepted.
+2022-04-20 14:04:13.085 +03:00 [DBG] Connection id "0HMH2NLUH9UVL" received FIN.
+2022-04-20 14:04:13.088 +03:00 [DBG] Connection id "0HMH2NLUH9UVM" started.
+2022-04-20 14:04:13.103 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-04-20 14:04:13.105 +03:00 [DBG] Connection 0HMH2NLUH9UVM established using the following protocol: "Tls13"
+2022-04-20 14:04:13.368 +03:00 [DBG] Connection id "0HMH2NLUH9UVL" stopped.
+2022-04-20 14:04:13.372 +03:00 [DBG] Connection id "0HMH2NLUH9UVL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-04-20 14:04:13.376 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7107/api/cities/3/pointsofinterest application/json 117
+2022-04-20 14:04:13.380 +03:00 [DBG] POST requests are not supported
+2022-04-20 14:04:13.426 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cities/3/pointsofinterest'
+2022-04-20 14:04:13.434 +03:00 [DBG] Endpoint 'CityInfo.API.Controllers.PointsOfInterestController.CreatePointOfInterest (CityInfo.API)' with route pattern 'api/cities/{cityid}/pointsofinterest' is valid for the request path '/api/cities/3/pointsofinterest'
+2022-04-20 14:04:13.438 +03:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.PointsOfInterestController.CreatePointOfInterest (CityInfo.API)'
+2022-04-20 14:04:13.444 +03:00 [INF] Executing endpoint 'CityInfo.API.Controllers.PointsOfInterestController.CreatePointOfInterest (CityInfo.API)'
+2022-04-20 14:04:13.505 +03:00 [INF] Route matched with {action = "CreatePointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CityInfo.API.Models.PointOfInterestDto]] CreatePointOfInterest(Int32, CityInfo.API.Models.PointOfInterestForCreationDto) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2022-04-20 14:04:13.510 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-04-20 14:04:13.513 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-04-20 14:04:13.516 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-04-20 14:04:13.520 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-04-20 14:04:13.522 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-04-20 14:04:13.526 +03:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2022-04-20 14:04:14.032 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-04-20 14:04:14.175 +03:00 [DBG] Connection id "0HMH2NLUH9UVK" received FIN.
+2022-04-20 14:04:14.186 +03:00 [DBG] Connection id "0HMH2NLUH9UVK" is closed. The last processed stream ID was 5.
+2022-04-20 14:04:14.188 +03:00 [DBG] Connection id "0HMH2NLUH9UVK" sending FIN because: "The client closed the connection."
+2022-04-20 14:04:14.206 +03:00 [DBG] Connection id "0HMH2NLUH9UVK" stopped.
+2022-04-20 14:04:14.365 +03:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2022-04-20 14:04:14.373 +03:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' ...
+2022-04-20 14:04:14.379 +03:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' using the name 'cityId' in request data ...
+2022-04-20 14:04:14.384 +03:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2022-04-20 14:04:14.386 +03:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2022-04-20 14:04:14.387 +03:00 [DBG] Attempting to validate the bound parameter 'cityId' of type 'System.Int32' ...
+2022-04-20 14:04:14.393 +03:00 [DBG] Done attempting to validate the bound parameter 'cityId' of type 'System.Int32'.
+2022-04-20 14:04:14.397 +03:00 [DBG] Attempting to bind parameter 'pointOfInterest' of type 'CityInfo.API.Models.PointOfInterestForCreationDto' ...
+2022-04-20 14:04:14.401 +03:00 [DBG] Attempting to bind parameter 'pointOfInterest' of type 'CityInfo.API.Models.PointOfInterestForCreationDto' using the name '' in request data ...
+2022-04-20 14:04:14.404 +03:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json'.
+2022-04-20 14:04:14.408 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json'.
+2022-04-20 14:04:14.422 +03:00 [DBG] Connection id "0HMH2NLUH9UVM", Request id "0HMH2NLUH9UVM:00000002": started reading request body.
+2022-04-20 14:04:14.424 +03:00 [DBG] Connection id "0HMH2NLUH9UVM", Request id "0HMH2NLUH9UVM:00000002": done reading request body.
+2022-04-20 14:04:14.689 +03:00 [DBG] Done attempting to bind parameter 'pointOfInterest' of type 'CityInfo.API.Models.PointOfInterestForCreationDto'.
+2022-04-20 14:04:14.691 +03:00 [DBG] Done attempting to bind parameter 'pointOfInterest' of type 'CityInfo.API.Models.PointOfInterestForCreationDto'.
+2022-04-20 14:04:14.693 +03:00 [DBG] Attempting to validate the bound parameter 'pointOfInterest' of type 'CityInfo.API.Models.PointOfInterestForCreationDto' ...
+2022-04-20 14:04:14.706 +03:00 [DBG] Done attempting to validate the bound parameter 'pointOfInterest' of type 'CityInfo.API.Models.PointOfInterestForCreationDto'.
+2022-04-20 14:04:16.196 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.4' with options: None
+2022-04-20 14:04:16.262 +03:00 [DBG] Compiling query expression: 
+'DbSet<City>()
+    .Any(c => c.Id == __cityId_0)'
+2022-04-20 14:04:16.591 +03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: new SingleQueryingEnumerable<bool>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                SELECT 1
+                FROM Cities AS c
+                WHERE c.Id == @__cityId_0)), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+        CityInfo.API.DbContexts.CityInfoContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2022-04-20 14:04:16.669 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-04-20 14:04:16.940 +03:00 [DBG] Authentication of the HTTPS connection timed out.
+2022-04-20 14:04:16.942 +03:00 [DBG] Connection id "0HMH2NLUH9UVI" stopped.
+2022-04-20 14:04:16.944 +03:00 [DBG] Connection id "0HMH2NLUH9UVI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-04-20 14:04:16.985 +03:00 [DBG] Authentication of the HTTPS connection timed out.
+2022-04-20 14:04:16.987 +03:00 [DBG] Connection id "0HMH2NLUH9UVJ" stopped.
+2022-04-20 14:04:16.989 +03:00 [DBG] Connection id "0HMH2NLUH9UVJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-04-20 14:04:17.078 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (413ms).
+2022-04-20 14:04:17.094 +03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 14:04:17.132 +03:00 [DBG] Opened connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 14:04:17.157 +03:00 [DBG] Executing DbCommand [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Cities" AS "c"
+    WHERE "c"."Id" = @__cityId_0)
+2022-04-20 14:04:17.204 +03:00 [INF] Executed DbCommand (51ms) [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Cities" AS "c"
+    WHERE "c"."Id" = @__cityId_0)
+2022-04-20 14:04:17.222 +03:00 [DBG] A data reader was disposed.
+2022-04-20 14:04:17.235 +03:00 [DBG] Closing connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 14:04:17.246 +03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 14:04:17.271 +03:00 [DBG] Compiling query expression: 
+'DbSet<City>()
+    .Where(c => c.Id == __cityId_0)
+    .FirstOrDefault()'
+2022-04-20 14:04:17.327 +03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<City>(
+    asyncEnumerable: new SingleQueryingEnumerable<City>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: City.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: City.Description (string) MaxLength(200), 1], [Property: City.Name (string) Required MaxLength(50), 2] }
+            SELECT TOP(1) c.Id, c.Description, c.Name
+            FROM Cities AS c
+            WHERE c.Id == @__cityId_0), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, City>, 
+        CityInfo.API.DbContexts.CityInfoContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2022-04-20 14:04:17.343 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-04-20 14:04:17.345 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2022-04-20 14:04:17.347 +03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 14:04:17.349 +03:00 [DBG] Opened connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 14:04:17.351 +03:00 [DBG] Executing DbCommand [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Description", "c"."Name"
+FROM "Cities" AS "c"
+WHERE "c"."Id" = @__cityId_0
+LIMIT 1
+2022-04-20 14:04:17.356 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Description", "c"."Name"
+FROM "Cities" AS "c"
+WHERE "c"."Id" = @__cityId_0
+LIMIT 1
+2022-04-20 14:04:17.384 +03:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-04-20 14:04:17.420 +03:00 [DBG] A data reader was disposed.
+2022-04-20 14:04:17.422 +03:00 [DBG] Closing connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 14:04:17.425 +03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 14:04:17.432 +03:00 [DBG] SaveChanges starting for 'CityInfoContext'.
+2022-04-20 14:04:17.438 +03:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2022-04-20 14:04:17.471 +03:00 [DBG] 1 entities were added and 0 entities were removed from navigation 'City.PointsOfInterest'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-04-20 14:04:17.561 +03:00 [DBG] 'CityInfoContext' generated a temporary value for the property 'Id.PointOfInterest'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-04-20 14:04:17.612 +03:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-04-20 14:04:17.618 +03:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2022-04-20 14:04:17.660 +03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 14:04:17.663 +03:00 [DBG] Opened connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 14:04:17.668 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-04-20 14:04:17.677 +03:00 [DBG] Began transaction with isolation level 'Serializable'.
+2022-04-20 14:04:17.763 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-04-20 14:04:17.765 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2022-04-20 14:04:17.768 +03:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 62), @p2='?' (Size = 13)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointsOfInterest" ("CityId", "Description", "Name")
+VALUES (@p0, @p1, @p2);
+SELECT "Id"
+FROM "PointsOfInterest"
+WHERE changes() = 1 AND "rowid" = last_insert_rowid();
+2022-04-20 14:04:17.776 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 62), @p2='?' (Size = 13)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointsOfInterest" ("CityId", "Description", "Name")
+VALUES (@p0, @p1, @p2);
+SELECT "Id"
+FROM "PointsOfInterest"
+WHERE changes() = 1 AND "rowid" = last_insert_rowid();
+2022-04-20 14:04:17.814 +03:00 [DBG] The foreign key property 'PointOfInterest.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2022-04-20 14:04:17.827 +03:00 [DBG] A data reader was disposed.
+2022-04-20 14:04:17.833 +03:00 [DBG] Committing transaction.
+2022-04-20 14:04:17.840 +03:00 [DBG] Committed transaction.
+2022-04-20 14:04:17.845 +03:00 [DBG] Closing connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 14:04:17.849 +03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 14:04:17.855 +03:00 [DBG] Disposing transaction.
+2022-04-20 14:04:17.873 +03:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-04-20 14:04:17.879 +03:00 [DBG] SaveChanges completed for 'CityInfoContext' with 1 entities written to the database.
+2022-04-20 14:04:17.895 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2022-04-20 14:04:17.903 +03:00 [DBG] No information found on request to perform content negotiation.
+2022-04-20 14:04:17.904 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-04-20 14:04:17.906 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-04-20 14:04:17.908 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-04-20 14:04:17.911 +03:00 [INF] Executing CreatedAtRouteResult, writing value of type 'CityInfo.API.Models.PointOfInterestDto'.
+2022-04-20 14:04:17.940 +03:00 [DBG] Found the endpoints ["CityInfo.API.Controllers.PointsOfInterestController.GetPointOfInterest (CityInfo.API)"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2022-04-20 14:04:17.959 +03:00 [DBG] Successfully processed template api/cities/{cityid}/pointsofinterest/{pointOfInterestId} for CityInfo.API.Controllers.PointsOfInterestController.GetPointOfInterest (CityInfo.API) resulting in /api/cities/3/pointsofinterest/7 and 
+2022-04-20 14:04:17.965 +03:00 [DBG] Link generation succeeded for endpoints ["CityInfo.API.Controllers.PointsOfInterestController.GetPointOfInterest (CityInfo.API)"] with result /api/cities/3/pointsofinterest/7
+2022-04-20 14:04:18.040 +03:00 [INF] Executed action CityInfo.API.Controllers.PointsOfInterestController.CreatePointOfInterest (CityInfo.API) in 4507.1885ms
+2022-04-20 14:04:18.043 +03:00 [INF] Executed endpoint 'CityInfo.API.Controllers.PointsOfInterestController.CreatePointOfInterest (CityInfo.API)'
+2022-04-20 14:04:18.045 +03:00 [DBG] Connection id "0HMH2NLUH9UVM" completed keep alive response.
+2022-04-20 14:04:18.049 +03:00 [DBG] 'CityInfoContext' disposed.
+2022-04-20 14:04:18.054 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7107/api/cities/3/pointsofinterest application/json 117 - 201 111 application/json;+charset=utf-8 4677.3243ms
+2022-04-20 14:17:10.964 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-04-20 14:17:11.113 +03:00 [DBG] Hosting starting
+2022-04-20 14:17:11.317 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 8F20BB2A452B4E846954342834C2115C29D01053)
+2022-04-20 14:17:11.381 +03:00 [INF] Now listening on: https://localhost:7107
+2022-04-20 14:17:11.382 +03:00 [INF] Now listening on: http://localhost:5107
+2022-04-20 14:17:11.384 +03:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2022-04-20 14:17:11.386 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-04-20 14:17:11.388 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-04-20 14:17:11.390 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-20 14:17:11.391 +03:00 [INF] Hosting environment: Development
+2022-04-20 14:17:11.392 +03:00 [INF] Content root path: D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\
+2022-04-20 14:17:11.393 +03:00 [DBG] Hosting started
+2022-04-20 14:17:11.641 +03:00 [DBG] Connection id "0HMH2NT8D14BU" accepted.
+2022-04-20 14:17:11.641 +03:00 [DBG] Connection id "0HMH2NT8D14BT" accepted.
+2022-04-20 14:17:11.646 +03:00 [DBG] Connection id "0HMH2NT8D14BT" received FIN.
+2022-04-20 14:17:11.646 +03:00 [DBG] Connection id "0HMH2NT8D14BU" received FIN.
+2022-04-20 14:17:11.650 +03:00 [DBG] Connection id "0HMH2NT8D14BT" started.
+2022-04-20 14:17:11.650 +03:00 [DBG] Connection id "0HMH2NT8D14BU" started.
+2022-04-20 14:17:11.790 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-04-20 14:17:11.789 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-04-20 14:17:11.846 +03:00 [DBG] Connection id "0HMH2NT8D14BU" stopped.
+2022-04-20 14:17:11.846 +03:00 [DBG] Connection id "0HMH2NT8D14BT" stopped.
+2022-04-20 14:17:11.850 +03:00 [DBG] Connection id "0HMH2NT8D14BU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-04-20 14:17:11.850 +03:00 [DBG] Connection id "0HMH2NT8D14BT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-04-20 14:17:12.054 +03:00 [DBG] Connection id "0HMH2NT8D14BV" accepted.
+2022-04-20 14:17:12.057 +03:00 [DBG] Connection id "0HMH2NT8D14BV" started.
+2022-04-20 14:17:12.127 +03:00 [DBG] Connection 0HMH2NT8D14BV established using the following protocol: "Tls13"
+2022-04-20 14:17:12.206 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7107/swagger/index.html - -
+2022-04-20 14:17:12.247 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-04-20 14:17:12.415 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-04-20 14:17:12.584 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-04-20 14:17:12.587 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7107/_framework/aspnetcore-browser-refresh.js - -
+2022-04-20 14:17:12.593 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7107/swagger/index.html - - - 200 - text/html;charset=utf-8 393.9565ms
+2022-04-20 14:17:12.597 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7107/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 10.7738ms
+2022-04-20 14:17:13.061 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7107/swagger/v1/swagger.json - -
+2022-04-20 14:17:13.311 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7107/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 249.5647ms
+2022-04-20 14:17:37.882 +03:00 [DBG] Connection id "0HMH2NT8D14C0" accepted.
+2022-04-20 14:17:37.890 +03:00 [DBG] Connection id "0HMH2NT8D14C0" received FIN.
+2022-04-20 14:17:37.891 +03:00 [DBG] Connection id "0HMH2NT8D14C0" started.
+2022-04-20 14:17:37.892 +03:00 [DBG] Connection id "0HMH2NT8D14C1" accepted.
+2022-04-20 14:17:37.897 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-04-20 14:17:37.898 +03:00 [DBG] Connection id "0HMH2NT8D14C1" started.
+2022-04-20 14:17:37.903 +03:00 [DBG] Connection id "0HMH2NT8D14C0" stopped.
+2022-04-20 14:17:37.906 +03:00 [DBG] Connection id "0HMH2NT8D14C0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-04-20 14:17:37.919 +03:00 [DBG] Connection 0HMH2NT8D14C1 established using the following protocol: "Tls13"
+2022-04-20 14:17:37.931 +03:00 [INF] Request starting HTTP/1.1 PUT https://localhost:7107/api/cities/1/pointsofinterest/1 application/json 122
+2022-04-20 14:17:37.935 +03:00 [DBG] PUT requests are not supported
+2022-04-20 14:17:37.981 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cities/1/pointsofinterest/1'
+2022-04-20 14:17:37.989 +03:00 [DBG] Endpoint 'CityInfo.API.Controllers.PointsOfInterestController.UpdatePointOfInterest (CityInfo.API)' with route pattern 'api/cities/{cityid}/pointsofinterest/{pointOfInterestId}' is valid for the request path '/api/cities/1/pointsofinterest/1'
+2022-04-20 14:17:37.994 +03:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.PointsOfInterestController.UpdatePointOfInterest (CityInfo.API)'
+2022-04-20 14:17:37.998 +03:00 [INF] Executing endpoint 'CityInfo.API.Controllers.PointsOfInterestController.UpdatePointOfInterest (CityInfo.API)'
+2022-04-20 14:17:38.047 +03:00 [INF] Route matched with {action = "UpdatePointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] UpdatePointOfInterest(Int32, Int32, CityInfo.API.Models.PointOfInterestForUpdateDto) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2022-04-20 14:17:38.052 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-04-20 14:17:38.054 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-04-20 14:17:38.057 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-04-20 14:17:38.060 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-04-20 14:17:38.062 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-04-20 14:17:38.066 +03:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2022-04-20 14:17:38.285 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-04-20 14:17:38.584 +03:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2022-04-20 14:17:38.594 +03:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' ...
+2022-04-20 14:17:38.599 +03:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' using the name 'cityId' in request data ...
+2022-04-20 14:17:38.602 +03:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2022-04-20 14:17:38.604 +03:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2022-04-20 14:17:38.606 +03:00 [DBG] Attempting to validate the bound parameter 'cityId' of type 'System.Int32' ...
+2022-04-20 14:17:38.611 +03:00 [DBG] Done attempting to validate the bound parameter 'cityId' of type 'System.Int32'.
+2022-04-20 14:17:38.615 +03:00 [DBG] Attempting to bind parameter 'pointOfInterestId' of type 'System.Int32' ...
+2022-04-20 14:17:38.618 +03:00 [DBG] Attempting to bind parameter 'pointOfInterestId' of type 'System.Int32' using the name 'pointOfInterestId' in request data ...
+2022-04-20 14:17:38.623 +03:00 [DBG] Done attempting to bind parameter 'pointOfInterestId' of type 'System.Int32'.
+2022-04-20 14:17:38.627 +03:00 [DBG] Done attempting to bind parameter 'pointOfInterestId' of type 'System.Int32'.
+2022-04-20 14:17:38.629 +03:00 [DBG] Attempting to validate the bound parameter 'pointOfInterestId' of type 'System.Int32' ...
+2022-04-20 14:17:38.631 +03:00 [DBG] Done attempting to validate the bound parameter 'pointOfInterestId' of type 'System.Int32'.
+2022-04-20 14:17:38.633 +03:00 [DBG] Attempting to bind parameter 'pointOfInterest' of type 'CityInfo.API.Models.PointOfInterestForUpdateDto' ...
+2022-04-20 14:17:38.636 +03:00 [DBG] Attempting to bind parameter 'pointOfInterest' of type 'CityInfo.API.Models.PointOfInterestForUpdateDto' using the name '' in request data ...
+2022-04-20 14:17:38.641 +03:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json'.
+2022-04-20 14:17:38.643 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json'.
+2022-04-20 14:17:38.653 +03:00 [DBG] Connection id "0HMH2NT8D14C1", Request id "0HMH2NT8D14C1:00000002": started reading request body.
+2022-04-20 14:17:38.655 +03:00 [DBG] Connection id "0HMH2NT8D14C1", Request id "0HMH2NT8D14C1:00000002": done reading request body.
+2022-04-20 14:17:38.854 +03:00 [DBG] Done attempting to bind parameter 'pointOfInterest' of type 'CityInfo.API.Models.PointOfInterestForUpdateDto'.
+2022-04-20 14:17:38.859 +03:00 [DBG] Done attempting to bind parameter 'pointOfInterest' of type 'CityInfo.API.Models.PointOfInterestForUpdateDto'.
+2022-04-20 14:17:38.861 +03:00 [DBG] Attempting to validate the bound parameter 'pointOfInterest' of type 'CityInfo.API.Models.PointOfInterestForUpdateDto' ...
+2022-04-20 14:17:38.874 +03:00 [DBG] Done attempting to validate the bound parameter 'pointOfInterest' of type 'CityInfo.API.Models.PointOfInterestForUpdateDto'.
+2022-04-20 14:17:40.190 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.4' with options: None
+2022-04-20 14:17:40.271 +03:00 [DBG] Compiling query expression: 
+'DbSet<City>()
+    .Any(c => c.Id == __cityId_0)'
+2022-04-20 14:17:40.618 +03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: new SingleQueryingEnumerable<bool>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                SELECT 1
+                FROM Cities AS c
+                WHERE c.Id == @__cityId_0)), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+        CityInfo.API.DbContexts.CityInfoContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2022-04-20 14:17:40.695 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-04-20 14:17:40.868 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (164ms).
+2022-04-20 14:17:40.884 +03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 14:17:40.916 +03:00 [DBG] Opened connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 14:17:40.938 +03:00 [DBG] Executing DbCommand [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Cities" AS "c"
+    WHERE "c"."Id" = @__cityId_0)
+2022-04-20 14:17:40.997 +03:00 [INF] Executed DbCommand (60ms) [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Cities" AS "c"
+    WHERE "c"."Id" = @__cityId_0)
+2022-04-20 14:17:41.017 +03:00 [DBG] A data reader was disposed.
+2022-04-20 14:17:41.025 +03:00 [DBG] Closing connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 14:17:41.036 +03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 14:17:41.044 +03:00 [DBG] Compiling query expression: 
+'DbSet<PointOfInterest>()
+    .Where(p => p.CityId == p.Id && p.Id == __pointOfInterestId_0)
+    .FirstOrDefault()'
+2022-04-20 14:17:41.107 +03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<PointOfInterest>(
+    asyncEnumerable: new SingleQueryingEnumerable<PointOfInterest>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: PointOfInterest.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: PointOfInterest.CityId (int) Required FK Index, 1], [Property: PointOfInterest.Description (string) Required MaxLength(200), 2], [Property: PointOfInterest.Name (string) Required MaxLength(50), 3] }
+            SELECT TOP(1) p.Id, p.CityId, p.Description, p.Name
+            FROM PointsOfInterest AS p
+            WHERE (p.CityId == p.Id) && (p.Id == @__pointOfInterestId_0)), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, PointOfInterest>, 
+        CityInfo.API.DbContexts.CityInfoContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2022-04-20 14:17:41.127 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-04-20 14:17:41.130 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2022-04-20 14:17:41.132 +03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 14:17:41.133 +03:00 [DBG] Opened connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 14:17:41.135 +03:00 [DBG] Executing DbCommand [Parameters=[@__pointOfInterestId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."CityId", "p"."Description", "p"."Name"
+FROM "PointsOfInterest" AS "p"
+WHERE ("p"."CityId" = "p"."Id") AND ("p"."Id" = @__pointOfInterestId_0)
+LIMIT 1
+2022-04-20 14:17:41.179 +03:00 [INF] Executed DbCommand (44ms) [Parameters=[@__pointOfInterestId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."CityId", "p"."Description", "p"."Name"
+FROM "PointsOfInterest" AS "p"
+WHERE ("p"."CityId" = "p"."Id") AND ("p"."Id" = @__pointOfInterestId_0)
+LIMIT 1
+2022-04-20 14:17:41.207 +03:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-04-20 14:17:41.253 +03:00 [DBG] A data reader was disposed.
+2022-04-20 14:17:41.255 +03:00 [DBG] Closing connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 14:17:41.257 +03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 14:17:41.278 +03:00 [DBG] SaveChanges starting for 'CityInfoContext'.
+2022-04-20 14:17:41.284 +03:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2022-04-20 14:17:41.302 +03:00 [DBG] The unchanged property 'PointOfInterest.Description' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2022-04-20 14:17:41.321 +03:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-04-20 14:17:41.325 +03:00 [DBG] The unchanged property 'PointOfInterest.Name' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2022-04-20 14:17:41.332 +03:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2022-04-20 14:17:41.361 +03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 14:17:41.363 +03:00 [DBG] Opened connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 14:17:41.367 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-04-20 14:17:41.375 +03:00 [DBG] Began transaction with isolation level 'Serializable'.
+2022-04-20 14:17:41.469 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-04-20 14:17:41.471 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2022-04-20 14:17:41.473 +03:00 [DBG] Executing DbCommand [Parameters=[@p2='?' (DbType = Int32), @p0='?' (Size = 59), @p1='?' (Size = 22)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "PointsOfInterest" SET "Description" = @p0, "Name" = @p1
+WHERE "Id" = @p2;
+SELECT changes();
+2022-04-20 14:17:41.520 +03:00 [INF] Executed DbCommand (47ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (Size = 59), @p1='?' (Size = 22)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "PointsOfInterest" SET "Description" = @p0, "Name" = @p1
+WHERE "Id" = @p2;
+SELECT changes();
+2022-04-20 14:17:41.534 +03:00 [DBG] A data reader was disposed.
+2022-04-20 14:17:41.540 +03:00 [DBG] Committing transaction.
+2022-04-20 14:17:41.544 +03:00 [DBG] Committed transaction.
+2022-04-20 14:17:41.550 +03:00 [DBG] Closing connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 14:17:41.552 +03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 14:17:41.556 +03:00 [DBG] Disposing transaction.
+2022-04-20 14:17:41.568 +03:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Modified"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-04-20 14:17:41.572 +03:00 [DBG] SaveChanges completed for 'CityInfoContext' with 1 entities written to the database.
+2022-04-20 14:17:41.582 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2022-04-20 14:17:41.593 +03:00 [INF] Executed action CityInfo.API.Controllers.PointsOfInterestController.UpdatePointOfInterest (CityInfo.API) in 3519.9014ms
+2022-04-20 14:17:41.595 +03:00 [INF] Executed endpoint 'CityInfo.API.Controllers.PointsOfInterestController.UpdatePointOfInterest (CityInfo.API)'
+2022-04-20 14:17:41.599 +03:00 [DBG] Connection id "0HMH2NT8D14C1" completed keep alive response.
+2022-04-20 14:17:41.603 +03:00 [DBG] 'CityInfoContext' disposed.
+2022-04-20 14:17:41.607 +03:00 [INF] Request finished HTTP/1.1 PUT https://localhost:7107/api/cities/1/pointsofinterest/1 application/json 122 - 204 - - 3676.3343ms
+2022-04-20 14:17:49.257 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7107/api/cities - -
+2022-04-20 14:17:49.259 +03:00 [DBG] The request path  does not match the path filter
+2022-04-20 14:17:49.261 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cities'
+2022-04-20 14:17:49.263 +03:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)' with route pattern 'api/cities' is valid for the request path '/api/cities'
+2022-04-20 14:17:49.265 +03:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2022-04-20 14:17:49.267 +03:00 [INF] Executing endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2022-04-20 14:17:49.274 +03:00 [INF] Route matched with {action = "GetCities", controller = "Cities"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CityInfo.API.Models.CityWithoutPointsOfInterestDto]]] GetCities() on controller CityInfo.API.Controllers.CitiesController (CityInfo.API).
+2022-04-20 14:17:49.278 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-04-20 14:17:49.280 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-04-20 14:17:49.283 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-04-20 14:17:49.286 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-04-20 14:17:49.289 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-04-20 14:17:49.291 +03:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.CitiesController (CityInfo.API)
+2022-04-20 14:17:49.294 +03:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.CitiesController (CityInfo.API)
+2022-04-20 14:17:49.323 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.4' with options: None
+2022-04-20 14:17:49.345 +03:00 [DBG] Compiling query expression: 
+'DbSet<City>()
+    .OrderBy(c => c.Name)'
+2022-04-20 14:17:49.360 +03:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<City>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: City.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: City.Description (string) MaxLength(200), 1], [Property: City.Name (string) Required MaxLength(50), 2] }
+        SELECT c.Id, c.Description, c.Name
+        FROM Cities AS c
+        ORDER BY c.Name ASC), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, City>, 
+    CityInfo.API.DbContexts.CityInfoContext, 
+    False, 
+    False, 
+    True
+)'
+2022-04-20 14:17:49.365 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-04-20 14:17:49.367 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2022-04-20 14:17:49.369 +03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 14:17:49.370 +03:00 [DBG] Opened connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 14:17:49.373 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Description", "c"."Name"
+FROM "Cities" AS "c"
+ORDER BY "c"."Name"
+2022-04-20 14:17:49.376 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Description", "c"."Name"
+FROM "Cities" AS "c"
+ORDER BY "c"."Name"
+2022-04-20 14:17:49.385 +03:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-04-20 14:17:49.395 +03:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-04-20 14:17:49.398 +03:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-04-20 14:17:49.399 +03:00 [DBG] A data reader was disposed.
+2022-04-20 14:17:49.400 +03:00 [DBG] Closing connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 14:17:49.402 +03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 14:17:49.422 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2022-04-20 14:17:49.429 +03:00 [DBG] No information found on request to perform content negotiation.
+2022-04-20 14:17:49.430 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-04-20 14:17:49.432 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-04-20 14:17:49.436 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-04-20 14:17:49.439 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CityInfo.API.Models.CityWithoutPointsOfInterestDto, CityInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-04-20 14:17:49.528 +03:00 [INF] Executed action CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API) in 237.2937ms
+2022-04-20 14:17:49.530 +03:00 [INF] Executed endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2022-04-20 14:17:49.532 +03:00 [DBG] Connection id "0HMH2NT8D14C1" completed keep alive response.
+2022-04-20 14:17:49.533 +03:00 [DBG] 'CityInfoContext' disposed.
+2022-04-20 14:17:49.536 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7107/api/cities - - - 200 225 application/json;+charset=utf-8 278.6920ms
+2022-04-20 14:18:11.649 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7107/api/cities/1/pointsofinterest - -
+2022-04-20 14:18:11.652 +03:00 [DBG] The request path  does not match the path filter
+2022-04-20 14:18:11.654 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cities/1/pointsofinterest'
+2022-04-20 14:18:11.656 +03:00 [DBG] Endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API)' with route pattern 'api/cities/{cityid}/pointsofinterest' is valid for the request path '/api/cities/1/pointsofinterest'
+2022-04-20 14:18:11.661 +03:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API)'
+2022-04-20 14:18:11.665 +03:00 [INF] Executing endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API)'
+2022-04-20 14:18:11.677 +03:00 [INF] Route matched with {action = "GetPointsOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CityInfo.API.Models.PointOfInterestDto]]] GetPointsOfInterest(Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2022-04-20 14:18:11.681 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-04-20 14:18:11.684 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-04-20 14:18:11.687 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-04-20 14:18:11.690 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-04-20 14:18:11.694 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-04-20 14:18:11.698 +03:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2022-04-20 14:18:11.705 +03:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2022-04-20 14:18:11.709 +03:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' ...
+2022-04-20 14:18:11.711 +03:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' using the name 'cityId' in request data ...
+2022-04-20 14:18:11.713 +03:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2022-04-20 14:18:11.715 +03:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2022-04-20 14:18:11.717 +03:00 [DBG] Attempting to validate the bound parameter 'cityId' of type 'System.Int32' ...
+2022-04-20 14:18:11.719 +03:00 [DBG] Done attempting to validate the bound parameter 'cityId' of type 'System.Int32'.
+2022-04-20 14:18:11.803 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.4' with options: None
+2022-04-20 14:18:11.812 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-04-20 14:18:11.814 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2022-04-20 14:18:11.817 +03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 14:18:11.819 +03:00 [DBG] Opened connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 14:18:11.821 +03:00 [DBG] Executing DbCommand [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Cities" AS "c"
+    WHERE "c"."Id" = @__cityId_0)
+2022-04-20 14:18:11.824 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Cities" AS "c"
+    WHERE "c"."Id" = @__cityId_0)
+2022-04-20 14:18:11.828 +03:00 [DBG] A data reader was disposed.
+2022-04-20 14:18:11.829 +03:00 [DBG] Closing connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 14:18:11.832 +03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 14:18:11.839 +03:00 [DBG] Compiling query expression: 
+'DbSet<PointOfInterest>()
+    .Where(p => p.CityId == __cityId_0)'
+2022-04-20 14:18:11.849 +03:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<PointOfInterest>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: PointOfInterest.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: PointOfInterest.CityId (int) Required FK Index, 1], [Property: PointOfInterest.Description (string) Required MaxLength(200), 2], [Property: PointOfInterest.Name (string) Required MaxLength(50), 3] }
+        SELECT p.Id, p.CityId, p.Description, p.Name
+        FROM PointsOfInterest AS p
+        WHERE p.CityId == @__cityId_0), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, PointOfInterest>, 
+    CityInfo.API.DbContexts.CityInfoContext, 
+    False, 
+    False, 
+    True
+)'
+2022-04-20 14:18:11.854 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-04-20 14:18:11.856 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2022-04-20 14:18:11.858 +03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 14:18:11.860 +03:00 [DBG] Opened connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 14:18:11.864 +03:00 [DBG] Executing DbCommand [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."CityId", "p"."Description", "p"."Name"
+FROM "PointsOfInterest" AS "p"
+WHERE "p"."CityId" = @__cityId_0
+2022-04-20 14:18:11.870 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."CityId", "p"."Description", "p"."Name"
+FROM "PointsOfInterest" AS "p"
+WHERE "p"."CityId" = @__cityId_0
+2022-04-20 14:18:11.875 +03:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-04-20 14:18:11.880 +03:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-04-20 14:18:11.883 +03:00 [DBG] A data reader was disposed.
+2022-04-20 14:18:11.885 +03:00 [DBG] Closing connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 14:18:11.887 +03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 14:18:11.896 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2022-04-20 14:18:11.901 +03:00 [DBG] No information found on request to perform content negotiation.
+2022-04-20 14:18:11.903 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-04-20 14:18:11.905 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-04-20 14:18:11.906 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-04-20 14:18:11.910 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CityInfo.API.Models.PointOfInterestDto, CityInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-04-20 14:18:11.917 +03:00 [INF] Executed action CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) in 219.5408ms
+2022-04-20 14:18:11.920 +03:00 [INF] Executed endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API)'
+2022-04-20 14:18:11.922 +03:00 [DBG] Connection id "0HMH2NT8D14C1" completed keep alive response.
+2022-04-20 14:18:11.924 +03:00 [DBG] 'CityInfoContext' disposed.
+2022-04-20 14:18:11.926 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7107/api/cities/1/pointsofinterest - - - 200 217 application/json;+charset=utf-8 277.1595ms
+2022-04-20 14:35:43.891 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-04-20 14:35:44.043 +03:00 [DBG] Hosting starting
+2022-04-20 14:35:44.240 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 8F20BB2A452B4E846954342834C2115C29D01053)
+2022-04-20 14:35:44.304 +03:00 [INF] Now listening on: https://localhost:7107
+2022-04-20 14:35:44.306 +03:00 [INF] Now listening on: http://localhost:5107
+2022-04-20 14:35:44.307 +03:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2022-04-20 14:35:44.308 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-04-20 14:35:44.310 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-04-20 14:35:44.311 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-20 14:35:44.313 +03:00 [INF] Hosting environment: Development
+2022-04-20 14:35:44.315 +03:00 [INF] Content root path: D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\
+2022-04-20 14:35:44.316 +03:00 [DBG] Hosting started
+2022-04-20 14:35:44.351 +03:00 [DBG] Connection id "0HMH2O7K0P1KH" received FIN.
+2022-04-20 14:35:44.351 +03:00 [DBG] Connection id "0HMH2O7K0P1KG" received FIN.
+2022-04-20 14:35:44.366 +03:00 [DBG] Connection id "0HMH2O7K0P1KG" accepted.
+2022-04-20 14:35:44.366 +03:00 [DBG] Connection id "0HMH2O7K0P1KH" accepted.
+2022-04-20 14:35:44.369 +03:00 [DBG] Connection id "0HMH2O7K0P1KG" started.
+2022-04-20 14:35:44.370 +03:00 [DBG] Connection id "0HMH2O7K0P1KH" started.
+2022-04-20 14:35:44.397 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-04-20 14:35:44.397 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-04-20 14:35:44.449 +03:00 [DBG] Connection id "0HMH2O7K0P1KG" stopped.
+2022-04-20 14:35:44.449 +03:00 [DBG] Connection id "0HMH2O7K0P1KH" stopped.
+2022-04-20 14:35:44.455 +03:00 [DBG] Connection id "0HMH2O7K0P1KH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-04-20 14:35:44.455 +03:00 [DBG] Connection id "0HMH2O7K0P1KG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-04-20 14:35:44.662 +03:00 [DBG] Connection id "0HMH2O7K0P1KI" accepted.
+2022-04-20 14:35:44.665 +03:00 [DBG] Connection id "0HMH2O7K0P1KI" started.
+2022-04-20 14:35:44.737 +03:00 [DBG] Connection 0HMH2O7K0P1KI established using the following protocol: "Tls13"
+2022-04-20 14:35:44.812 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7107/swagger/index.html - -
+2022-04-20 14:35:44.854 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-04-20 14:35:44.986 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-04-20 14:35:45.144 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-04-20 14:35:45.147 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7107/_framework/aspnetcore-browser-refresh.js - -
+2022-04-20 14:35:45.151 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7107/swagger/index.html - - - 200 - text/html;charset=utf-8 344.4608ms
+2022-04-20 14:35:45.153 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7107/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 5.2085ms
+2022-04-20 14:35:45.530 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7107/swagger/v1/swagger.json - -
+2022-04-20 14:35:45.755 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7107/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 224.9480ms
+2022-04-20 14:35:47.029 +03:00 [DBG] Connection id "0HMH2O7K0P1KI" received FIN.
+2022-04-20 14:35:47.039 +03:00 [DBG] Connection id "0HMH2O7K0P1KI" is closed. The last processed stream ID was 5.
+2022-04-20 14:35:47.041 +03:00 [DBG] Connection id "0HMH2O7K0P1KI" sending FIN because: "The client closed the connection."
+2022-04-20 14:35:47.060 +03:00 [DBG] Connection id "0HMH2O7K0P1KI" stopped.
+2022-04-20 14:35:54.142 +03:00 [DBG] Connection id "0HMH2O7K0P1KJ" received FIN.
+2022-04-20 14:35:54.142 +03:00 [DBG] Connection id "0HMH2O7K0P1KJ" accepted.
+2022-04-20 14:35:54.146 +03:00 [DBG] Connection id "0HMH2O7K0P1KJ" started.
+2022-04-20 14:35:54.147 +03:00 [DBG] Connection id "0HMH2O7K0P1KK" accepted.
+2022-04-20 14:35:54.149 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-04-20 14:35:54.150 +03:00 [DBG] Connection id "0HMH2O7K0P1KK" started.
+2022-04-20 14:35:54.155 +03:00 [DBG] Connection id "0HMH2O7K0P1KJ" stopped.
+2022-04-20 14:35:54.158 +03:00 [DBG] Connection id "0HMH2O7K0P1KJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-04-20 14:35:54.162 +03:00 [DBG] Connection 0HMH2O7K0P1KK established using the following protocol: "Tls13"
+2022-04-20 14:35:54.173 +03:00 [INF] Request starting HTTP/1.1 PATCH https://localhost:7107/api/cities/1/pointsofinterest/1 application/json 101
+2022-04-20 14:35:54.179 +03:00 [DBG] PATCH requests are not supported
+2022-04-20 14:35:54.223 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cities/1/pointsofinterest/1'
+2022-04-20 14:35:54.234 +03:00 [DBG] Endpoint 'CityInfo.API.Controllers.PointsOfInterestController.PartiallyUpdatePointOfInterest (CityInfo.API)' with route pattern 'api/cities/{cityid}/pointsofinterest/{pointOfInterestId}' is valid for the request path '/api/cities/1/pointsofinterest/1'
+2022-04-20 14:35:54.237 +03:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.PointsOfInterestController.PartiallyUpdatePointOfInterest (CityInfo.API)'
+2022-04-20 14:35:54.242 +03:00 [INF] Executing endpoint 'CityInfo.API.Controllers.PointsOfInterestController.PartiallyUpdatePointOfInterest (CityInfo.API)'
+2022-04-20 14:35:54.298 +03:00 [INF] Route matched with {action = "PartiallyUpdatePointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] PartiallyUpdatePointOfInterest(Int32, Int32, Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[CityInfo.API.Models.PointOfInterestForUpdateDto]) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2022-04-20 14:35:54.303 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-04-20 14:35:54.305 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-04-20 14:35:54.308 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-04-20 14:35:54.311 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-04-20 14:35:54.313 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-04-20 14:35:54.317 +03:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2022-04-20 14:35:54.522 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-04-20 14:35:54.798 +03:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2022-04-20 14:35:54.805 +03:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' ...
+2022-04-20 14:35:54.809 +03:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' using the name 'cityId' in request data ...
+2022-04-20 14:35:54.813 +03:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2022-04-20 14:35:54.815 +03:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2022-04-20 14:35:54.816 +03:00 [DBG] Attempting to validate the bound parameter 'cityId' of type 'System.Int32' ...
+2022-04-20 14:35:54.821 +03:00 [DBG] Done attempting to validate the bound parameter 'cityId' of type 'System.Int32'.
+2022-04-20 14:35:54.824 +03:00 [DBG] Attempting to bind parameter 'pointofInterestId' of type 'System.Int32' ...
+2022-04-20 14:35:54.826 +03:00 [DBG] Attempting to bind parameter 'pointofInterestId' of type 'System.Int32' using the name 'pointofInterestId' in request data ...
+2022-04-20 14:35:54.829 +03:00 [DBG] Done attempting to bind parameter 'pointofInterestId' of type 'System.Int32'.
+2022-04-20 14:35:54.831 +03:00 [DBG] Done attempting to bind parameter 'pointofInterestId' of type 'System.Int32'.
+2022-04-20 14:35:54.833 +03:00 [DBG] Attempting to validate the bound parameter 'pointofInterestId' of type 'System.Int32' ...
+2022-04-20 14:35:54.834 +03:00 [DBG] Done attempting to validate the bound parameter 'pointofInterestId' of type 'System.Int32'.
+2022-04-20 14:35:54.837 +03:00 [DBG] Attempting to bind parameter 'patchDocument' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[CityInfo.API.Models.PointOfInterestForUpdateDto]' ...
+2022-04-20 14:35:54.840 +03:00 [DBG] Attempting to bind parameter 'patchDocument' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[CityInfo.API.Models.PointOfInterestForUpdateDto]' using the name '' in request data ...
+2022-04-20 14:35:54.844 +03:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json'.
+2022-04-20 14:35:54.846 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json'.
+2022-04-20 14:35:54.854 +03:00 [DBG] Connection id "0HMH2O7K0P1KK", Request id "0HMH2O7K0P1KK:00000002": started reading request body.
+2022-04-20 14:35:54.856 +03:00 [DBG] Connection id "0HMH2O7K0P1KK", Request id "0HMH2O7K0P1KK:00000002": done reading request body.
+2022-04-20 14:35:55.141 +03:00 [DBG] Done attempting to bind parameter 'patchDocument' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[CityInfo.API.Models.PointOfInterestForUpdateDto]'.
+2022-04-20 14:35:55.143 +03:00 [DBG] Done attempting to bind parameter 'patchDocument' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[CityInfo.API.Models.PointOfInterestForUpdateDto]'.
+2022-04-20 14:35:55.145 +03:00 [DBG] Attempting to validate the bound parameter 'patchDocument' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[CityInfo.API.Models.PointOfInterestForUpdateDto]' ...
+2022-04-20 14:35:55.156 +03:00 [DBG] Done attempting to validate the bound parameter 'patchDocument' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[CityInfo.API.Models.PointOfInterestForUpdateDto]'.
+2022-04-20 14:35:56.457 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.4' with options: None
+2022-04-20 14:35:56.522 +03:00 [DBG] Compiling query expression: 
+'DbSet<City>()
+    .Any(c => c.Id == __cityId_0)'
+2022-04-20 14:35:56.798 +03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: new SingleQueryingEnumerable<bool>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                SELECT 1
+                FROM Cities AS c
+                WHERE c.Id == @__cityId_0)), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+        CityInfo.API.DbContexts.CityInfoContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2022-04-20 14:35:56.871 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-04-20 14:35:56.960 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (91ms).
+2022-04-20 14:35:56.974 +03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 14:35:57.004 +03:00 [DBG] Opened connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 14:35:57.029 +03:00 [DBG] Executing DbCommand [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Cities" AS "c"
+    WHERE "c"."Id" = @__cityId_0)
+2022-04-20 14:35:57.080 +03:00 [INF] Executed DbCommand (59ms) [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Cities" AS "c"
+    WHERE "c"."Id" = @__cityId_0)
+2022-04-20 14:35:57.098 +03:00 [DBG] A data reader was disposed.
+2022-04-20 14:35:57.105 +03:00 [DBG] Closing connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 14:35:57.115 +03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 14:35:57.123 +03:00 [DBG] Compiling query expression: 
+'DbSet<PointOfInterest>()
+    .Where(p => p.CityId == p.Id && p.Id == __pointOfInterestId_0)
+    .FirstOrDefault()'
+2022-04-20 14:35:57.177 +03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<PointOfInterest>(
+    asyncEnumerable: new SingleQueryingEnumerable<PointOfInterest>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: PointOfInterest.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: PointOfInterest.CityId (int) Required FK Index, 1], [Property: PointOfInterest.Description (string) Required MaxLength(200), 2], [Property: PointOfInterest.Name (string) Required MaxLength(50), 3] }
+            SELECT TOP(1) p.Id, p.CityId, p.Description, p.Name
+            FROM PointsOfInterest AS p
+            WHERE (p.CityId == p.Id) && (p.Id == @__pointOfInterestId_0)), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, PointOfInterest>, 
+        CityInfo.API.DbContexts.CityInfoContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2022-04-20 14:35:57.194 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-04-20 14:35:57.196 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2022-04-20 14:35:57.198 +03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 14:35:57.199 +03:00 [DBG] Opened connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 14:35:57.201 +03:00 [DBG] Executing DbCommand [Parameters=[@__pointOfInterestId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."CityId", "p"."Description", "p"."Name"
+FROM "PointsOfInterest" AS "p"
+WHERE ("p"."CityId" = "p"."Id") AND ("p"."Id" = @__pointOfInterestId_0)
+LIMIT 1
+2022-04-20 14:35:57.204 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__pointOfInterestId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."CityId", "p"."Description", "p"."Name"
+FROM "PointsOfInterest" AS "p"
+WHERE ("p"."CityId" = "p"."Id") AND ("p"."Id" = @__pointOfInterestId_0)
+LIMIT 1
+2022-04-20 14:35:57.228 +03:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-04-20 14:35:57.268 +03:00 [DBG] A data reader was disposed.
+2022-04-20 14:35:57.270 +03:00 [DBG] Closing connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 14:35:57.273 +03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 14:35:57.318 +03:00 [DBG] SaveChanges starting for 'CityInfoContext'.
+2022-04-20 14:35:57.324 +03:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2022-04-20 14:35:57.347 +03:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2022-04-20 14:35:57.358 +03:00 [DBG] SaveChanges completed for 'CityInfoContext' with 0 entities written to the database.
+2022-04-20 14:35:57.368 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2022-04-20 14:35:57.378 +03:00 [INF] Executed action CityInfo.API.Controllers.PointsOfInterestController.PartiallyUpdatePointOfInterest (CityInfo.API) in 3054.4897ms
+2022-04-20 14:35:57.381 +03:00 [INF] Executed endpoint 'CityInfo.API.Controllers.PointsOfInterestController.PartiallyUpdatePointOfInterest (CityInfo.API)'
+2022-04-20 14:35:57.384 +03:00 [DBG] Connection id "0HMH2O7K0P1KK" completed keep alive response.
+2022-04-20 14:35:57.388 +03:00 [DBG] 'CityInfoContext' disposed.
+2022-04-20 14:35:57.393 +03:00 [INF] Request finished HTTP/1.1 PATCH https://localhost:7107/api/cities/1/pointsofinterest/1 application/json 101 - 204 - - 3220.3975ms
+2022-04-20 14:36:06.666 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7107/api/cities/1/pointsofinterest - -
+2022-04-20 14:36:06.668 +03:00 [DBG] The request path  does not match the path filter
+2022-04-20 14:36:06.673 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cities/1/pointsofinterest'
+2022-04-20 14:36:06.674 +03:00 [DBG] Endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API)' with route pattern 'api/cities/{cityid}/pointsofinterest' is valid for the request path '/api/cities/1/pointsofinterest'
+2022-04-20 14:36:06.693 +03:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API)'
+2022-04-20 14:36:06.702 +03:00 [INF] Executing endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API)'
+2022-04-20 14:36:06.720 +03:00 [INF] Route matched with {action = "GetPointsOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CityInfo.API.Models.PointOfInterestDto]]] GetPointsOfInterest(Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2022-04-20 14:36:06.726 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-04-20 14:36:06.730 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-04-20 14:36:06.732 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-04-20 14:36:06.737 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-04-20 14:36:06.740 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-04-20 14:36:06.742 +03:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2022-04-20 14:36:06.745 +03:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2022-04-20 14:36:06.747 +03:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' ...
+2022-04-20 14:36:06.749 +03:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' using the name 'cityId' in request data ...
+2022-04-20 14:36:06.751 +03:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2022-04-20 14:36:06.753 +03:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2022-04-20 14:36:06.755 +03:00 [DBG] Attempting to validate the bound parameter 'cityId' of type 'System.Int32' ...
+2022-04-20 14:36:06.757 +03:00 [DBG] Done attempting to validate the bound parameter 'cityId' of type 'System.Int32'.
+2022-04-20 14:36:06.766 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.4' with options: None
+2022-04-20 14:36:06.783 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-04-20 14:36:06.786 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2022-04-20 14:36:06.788 +03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 14:36:06.790 +03:00 [DBG] Opened connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 14:36:06.793 +03:00 [DBG] Executing DbCommand [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Cities" AS "c"
+    WHERE "c"."Id" = @__cityId_0)
+2022-04-20 14:36:06.797 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Cities" AS "c"
+    WHERE "c"."Id" = @__cityId_0)
+2022-04-20 14:36:06.801 +03:00 [DBG] A data reader was disposed.
+2022-04-20 14:36:06.803 +03:00 [DBG] Closing connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 14:36:06.805 +03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 14:36:06.816 +03:00 [DBG] Compiling query expression: 
+'DbSet<PointOfInterest>()
+    .Where(p => p.CityId == __cityId_0)'
+2022-04-20 14:36:06.826 +03:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<PointOfInterest>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: PointOfInterest.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: PointOfInterest.CityId (int) Required FK Index, 1], [Property: PointOfInterest.Description (string) Required MaxLength(200), 2], [Property: PointOfInterest.Name (string) Required MaxLength(50), 3] }
+        SELECT p.Id, p.CityId, p.Description, p.Name
+        FROM PointsOfInterest AS p
+        WHERE p.CityId == @__cityId_0), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, PointOfInterest>, 
+    CityInfo.API.DbContexts.CityInfoContext, 
+    False, 
+    False, 
+    True
+)'
+2022-04-20 14:36:06.830 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-04-20 14:36:06.831 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2022-04-20 14:36:06.834 +03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 14:36:06.835 +03:00 [DBG] Opened connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 14:36:06.837 +03:00 [DBG] Executing DbCommand [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."CityId", "p"."Description", "p"."Name"
+FROM "PointsOfInterest" AS "p"
+WHERE "p"."CityId" = @__cityId_0
+2022-04-20 14:36:06.841 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."CityId", "p"."Description", "p"."Name"
+FROM "PointsOfInterest" AS "p"
+WHERE "p"."CityId" = @__cityId_0
+2022-04-20 14:36:06.845 +03:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-04-20 14:36:06.847 +03:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-04-20 14:36:06.850 +03:00 [DBG] A data reader was disposed.
+2022-04-20 14:36:06.851 +03:00 [DBG] Closing connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 14:36:06.854 +03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 14:36:06.870 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2022-04-20 14:36:06.877 +03:00 [DBG] No information found on request to perform content negotiation.
+2022-04-20 14:36:06.879 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-04-20 14:36:06.881 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-04-20 14:36:06.884 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-04-20 14:36:06.886 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CityInfo.API.Models.PointOfInterestDto, CityInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-04-20 14:36:06.951 +03:00 [INF] Executed action CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) in 208.8463ms
+2022-04-20 14:36:06.953 +03:00 [INF] Executed endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API)'
+2022-04-20 14:36:06.956 +03:00 [DBG] Connection id "0HMH2O7K0P1KK" completed keep alive response.
+2022-04-20 14:36:06.958 +03:00 [DBG] 'CityInfoContext' disposed.
+2022-04-20 14:36:06.959 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7107/api/cities/1/pointsofinterest - - - 200 217 application/json;+charset=utf-8 293.3904ms
+2022-04-20 14:36:24.623 +03:00 [INF] Request starting HTTP/1.1 PATCH https://localhost:7107/api/cities/1/pointsofinterest/1 application/json 103
+2022-04-20 14:36:24.626 +03:00 [DBG] PATCH requests are not supported
+2022-04-20 14:36:24.628 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cities/1/pointsofinterest/1'
+2022-04-20 14:36:24.629 +03:00 [DBG] Endpoint 'CityInfo.API.Controllers.PointsOfInterestController.PartiallyUpdatePointOfInterest (CityInfo.API)' with route pattern 'api/cities/{cityid}/pointsofinterest/{pointOfInterestId}' is valid for the request path '/api/cities/1/pointsofinterest/1'
+2022-04-20 14:36:24.632 +03:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.PointsOfInterestController.PartiallyUpdatePointOfInterest (CityInfo.API)'
+2022-04-20 14:36:24.633 +03:00 [INF] Executing endpoint 'CityInfo.API.Controllers.PointsOfInterestController.PartiallyUpdatePointOfInterest (CityInfo.API)'
+2022-04-20 14:36:24.636 +03:00 [INF] Route matched with {action = "PartiallyUpdatePointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] PartiallyUpdatePointOfInterest(Int32, Int32, Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[CityInfo.API.Models.PointOfInterestForUpdateDto]) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2022-04-20 14:36:24.639 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-04-20 14:36:24.641 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-04-20 14:36:24.643 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-04-20 14:36:24.646 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-04-20 14:36:24.648 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-04-20 14:36:24.651 +03:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2022-04-20 14:36:24.658 +03:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2022-04-20 14:36:24.661 +03:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' ...
+2022-04-20 14:36:24.663 +03:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' using the name 'cityId' in request data ...
+2022-04-20 14:36:24.665 +03:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2022-04-20 14:36:24.667 +03:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2022-04-20 14:36:24.669 +03:00 [DBG] Attempting to validate the bound parameter 'cityId' of type 'System.Int32' ...
+2022-04-20 14:36:24.671 +03:00 [DBG] Done attempting to validate the bound parameter 'cityId' of type 'System.Int32'.
+2022-04-20 14:36:24.673 +03:00 [DBG] Attempting to bind parameter 'pointofInterestId' of type 'System.Int32' ...
+2022-04-20 14:36:24.675 +03:00 [DBG] Attempting to bind parameter 'pointofInterestId' of type 'System.Int32' using the name 'pointofInterestId' in request data ...
+2022-04-20 14:36:24.677 +03:00 [DBG] Done attempting to bind parameter 'pointofInterestId' of type 'System.Int32'.
+2022-04-20 14:36:24.679 +03:00 [DBG] Done attempting to bind parameter 'pointofInterestId' of type 'System.Int32'.
+2022-04-20 14:36:24.681 +03:00 [DBG] Attempting to validate the bound parameter 'pointofInterestId' of type 'System.Int32' ...
+2022-04-20 14:36:24.684 +03:00 [DBG] Done attempting to validate the bound parameter 'pointofInterestId' of type 'System.Int32'.
+2022-04-20 14:36:24.686 +03:00 [DBG] Attempting to bind parameter 'patchDocument' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[CityInfo.API.Models.PointOfInterestForUpdateDto]' ...
+2022-04-20 14:36:24.688 +03:00 [DBG] Attempting to bind parameter 'patchDocument' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[CityInfo.API.Models.PointOfInterestForUpdateDto]' using the name '' in request data ...
+2022-04-20 14:36:24.691 +03:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json'.
+2022-04-20 14:36:24.693 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json'.
+2022-04-20 14:36:24.695 +03:00 [DBG] Connection id "0HMH2O7K0P1KK", Request id "0HMH2O7K0P1KK:00000004": started reading request body.
+2022-04-20 14:36:24.698 +03:00 [DBG] Connection id "0HMH2O7K0P1KK", Request id "0HMH2O7K0P1KK:00000004": done reading request body.
+2022-04-20 14:36:24.701 +03:00 [DBG] Done attempting to bind parameter 'patchDocument' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[CityInfo.API.Models.PointOfInterestForUpdateDto]'.
+2022-04-20 14:36:24.703 +03:00 [DBG] Done attempting to bind parameter 'patchDocument' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[CityInfo.API.Models.PointOfInterestForUpdateDto]'.
+2022-04-20 14:36:24.706 +03:00 [DBG] Attempting to validate the bound parameter 'patchDocument' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[CityInfo.API.Models.PointOfInterestForUpdateDto]' ...
+2022-04-20 14:36:24.710 +03:00 [DBG] Done attempting to validate the bound parameter 'patchDocument' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[CityInfo.API.Models.PointOfInterestForUpdateDto]'.
+2022-04-20 14:36:24.804 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.4' with options: None
+2022-04-20 14:36:24.809 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-04-20 14:36:24.811 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2022-04-20 14:36:24.813 +03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 14:36:24.815 +03:00 [DBG] Opened connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 14:36:24.818 +03:00 [DBG] Executing DbCommand [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Cities" AS "c"
+    WHERE "c"."Id" = @__cityId_0)
+2022-04-20 14:36:24.821 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Cities" AS "c"
+    WHERE "c"."Id" = @__cityId_0)
+2022-04-20 14:36:24.826 +03:00 [DBG] A data reader was disposed.
+2022-04-20 14:36:24.827 +03:00 [DBG] Closing connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 14:36:24.829 +03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 14:36:24.832 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-04-20 14:36:24.833 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2022-04-20 14:36:24.835 +03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 14:36:24.837 +03:00 [DBG] Opened connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 14:36:24.840 +03:00 [DBG] Executing DbCommand [Parameters=[@__pointOfInterestId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."CityId", "p"."Description", "p"."Name"
+FROM "PointsOfInterest" AS "p"
+WHERE ("p"."CityId" = "p"."Id") AND ("p"."Id" = @__pointOfInterestId_0)
+LIMIT 1
+2022-04-20 14:36:24.843 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__pointOfInterestId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."CityId", "p"."Description", "p"."Name"
+FROM "PointsOfInterest" AS "p"
+WHERE ("p"."CityId" = "p"."Id") AND ("p"."Id" = @__pointOfInterestId_0)
+LIMIT 1
+2022-04-20 14:36:24.847 +03:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-04-20 14:36:24.849 +03:00 [DBG] A data reader was disposed.
+2022-04-20 14:36:24.850 +03:00 [DBG] Closing connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 14:36:24.853 +03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 14:36:24.856 +03:00 [DBG] SaveChanges starting for 'CityInfoContext'.
+2022-04-20 14:36:24.858 +03:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2022-04-20 14:36:24.861 +03:00 [DBG] The unchanged property 'PointOfInterest.Name' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2022-04-20 14:36:24.878 +03:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-04-20 14:36:24.882 +03:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2022-04-20 14:36:24.908 +03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 14:36:24.911 +03:00 [DBG] Opened connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 14:36:24.917 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-04-20 14:36:24.927 +03:00 [DBG] Began transaction with isolation level 'Serializable'.
+2022-04-20 14:36:25.011 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-04-20 14:36:25.013 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2022-04-20 14:36:25.016 +03:00 [DBG] Executing DbCommand [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 24)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "PointsOfInterest" SET "Name" = @p0
+WHERE "Id" = @p1;
+SELECT changes();
+2022-04-20 14:36:25.022 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 24)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "PointsOfInterest" SET "Name" = @p0
+WHERE "Id" = @p1;
+SELECT changes();
+2022-04-20 14:36:25.035 +03:00 [DBG] A data reader was disposed.
+2022-04-20 14:36:25.041 +03:00 [DBG] Committing transaction.
+2022-04-20 14:36:25.088 +03:00 [DBG] Committed transaction.
+2022-04-20 14:36:25.092 +03:00 [DBG] Closing connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 14:36:25.094 +03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 14:36:25.099 +03:00 [DBG] Disposing transaction.
+2022-04-20 14:36:25.110 +03:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Modified"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-04-20 14:36:25.113 +03:00 [DBG] SaveChanges completed for 'CityInfoContext' with 1 entities written to the database.
+2022-04-20 14:36:25.115 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2022-04-20 14:36:25.117 +03:00 [INF] Executed action CityInfo.API.Controllers.PointsOfInterestController.PartiallyUpdatePointOfInterest (CityInfo.API) in 465.1672ms
+2022-04-20 14:36:25.120 +03:00 [INF] Executed endpoint 'CityInfo.API.Controllers.PointsOfInterestController.PartiallyUpdatePointOfInterest (CityInfo.API)'
+2022-04-20 14:36:25.122 +03:00 [DBG] Connection id "0HMH2O7K0P1KK" completed keep alive response.
+2022-04-20 14:36:25.124 +03:00 [DBG] 'CityInfoContext' disposed.
+2022-04-20 14:36:25.125 +03:00 [INF] Request finished HTTP/1.1 PATCH https://localhost:7107/api/cities/1/pointsofinterest/1 application/json 103 - 204 - - 501.8404ms
+2022-04-20 14:36:33.615 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7107/api/cities/1/pointsofinterest - -
+2022-04-20 14:36:33.617 +03:00 [DBG] The request path  does not match the path filter
+2022-04-20 14:36:33.619 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cities/1/pointsofinterest'
+2022-04-20 14:36:33.622 +03:00 [DBG] Endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API)' with route pattern 'api/cities/{cityid}/pointsofinterest' is valid for the request path '/api/cities/1/pointsofinterest'
+2022-04-20 14:36:33.625 +03:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API)'
+2022-04-20 14:36:33.628 +03:00 [INF] Executing endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API)'
+2022-04-20 14:36:33.631 +03:00 [INF] Route matched with {action = "GetPointsOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CityInfo.API.Models.PointOfInterestDto]]] GetPointsOfInterest(Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2022-04-20 14:36:33.635 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-04-20 14:36:33.637 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-04-20 14:36:33.640 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-04-20 14:36:33.644 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-04-20 14:36:33.646 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-04-20 14:36:33.649 +03:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2022-04-20 14:36:33.652 +03:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2022-04-20 14:36:33.654 +03:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' ...
+2022-04-20 14:36:33.656 +03:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' using the name 'cityId' in request data ...
+2022-04-20 14:36:33.660 +03:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2022-04-20 14:36:33.662 +03:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2022-04-20 14:36:33.664 +03:00 [DBG] Attempting to validate the bound parameter 'cityId' of type 'System.Int32' ...
+2022-04-20 14:36:33.666 +03:00 [DBG] Done attempting to validate the bound parameter 'cityId' of type 'System.Int32'.
+2022-04-20 14:36:33.669 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.4' with options: None
+2022-04-20 14:36:33.674 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-04-20 14:36:33.676 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2022-04-20 14:36:33.679 +03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 14:36:33.681 +03:00 [DBG] Opened connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 14:36:33.683 +03:00 [DBG] Executing DbCommand [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Cities" AS "c"
+    WHERE "c"."Id" = @__cityId_0)
+2022-04-20 14:36:33.688 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Cities" AS "c"
+    WHERE "c"."Id" = @__cityId_0)
+2022-04-20 14:36:33.692 +03:00 [DBG] A data reader was disposed.
+2022-04-20 14:36:33.693 +03:00 [DBG] Closing connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 14:36:33.695 +03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 14:36:33.698 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-04-20 14:36:33.700 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2022-04-20 14:36:33.703 +03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 14:36:33.708 +03:00 [DBG] Opened connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 14:36:33.710 +03:00 [DBG] Executing DbCommand [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."CityId", "p"."Description", "p"."Name"
+FROM "PointsOfInterest" AS "p"
+WHERE "p"."CityId" = @__cityId_0
+2022-04-20 14:36:33.716 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."CityId", "p"."Description", "p"."Name"
+FROM "PointsOfInterest" AS "p"
+WHERE "p"."CityId" = @__cityId_0
+2022-04-20 14:36:33.724 +03:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-04-20 14:36:33.726 +03:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-04-20 14:36:33.729 +03:00 [DBG] A data reader was disposed.
+2022-04-20 14:36:33.730 +03:00 [DBG] Closing connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 14:36:33.732 +03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 14:36:33.737 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2022-04-20 14:36:33.744 +03:00 [DBG] No information found on request to perform content negotiation.
+2022-04-20 14:36:33.745 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-04-20 14:36:33.747 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-04-20 14:36:33.749 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-04-20 14:36:33.753 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CityInfo.API.Models.PointOfInterestDto, CityInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-04-20 14:36:33.757 +03:00 [INF] Executed action CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) in 107.937ms
+2022-04-20 14:36:33.760 +03:00 [INF] Executed endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API)'
+2022-04-20 14:36:33.762 +03:00 [DBG] Connection id "0HMH2O7K0P1KK" completed keep alive response.
+2022-04-20 14:36:33.764 +03:00 [DBG] 'CityInfoContext' disposed.
+2022-04-20 14:36:33.766 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7107/api/cities/1/pointsofinterest - - - 200 219 application/json;+charset=utf-8 151.4025ms
+2022-04-20 15:22:27.000 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-04-20 15:22:27.169 +03:00 [DBG] Hosting starting
+2022-04-20 15:22:27.363 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 8F20BB2A452B4E846954342834C2115C29D01053)
+2022-04-20 15:22:27.419 +03:00 [INF] Now listening on: https://localhost:7107
+2022-04-20 15:22:27.420 +03:00 [INF] Now listening on: http://localhost:5107
+2022-04-20 15:22:27.422 +03:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2022-04-20 15:22:27.424 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-04-20 15:22:27.425 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-04-20 15:22:27.427 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-20 15:22:27.428 +03:00 [INF] Hosting environment: Development
+2022-04-20 15:22:27.429 +03:00 [INF] Content root path: D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\
+2022-04-20 15:22:27.430 +03:00 [DBG] Hosting started
+2022-04-20 15:22:27.757 +03:00 [DBG] Connection id "0HMH2P1NG3QOP" accepted.
+2022-04-20 15:22:27.760 +03:00 [DBG] Connection id "0HMH2P1NG3QOQ" accepted.
+2022-04-20 15:22:27.761 +03:00 [DBG] Connection id "0HMH2P1NG3QOP" started.
+2022-04-20 15:22:27.762 +03:00 [DBG] Connection id "0HMH2P1NG3QOQ" started.
+2022-04-20 15:22:27.799 +03:00 [DBG] Connection id "0HMH2P1NG3QOQ" received FIN.
+2022-04-20 15:22:27.799 +03:00 [DBG] Connection id "0HMH2P1NG3QOP" received FIN.
+2022-04-20 15:22:27.832 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-04-20 15:22:27.832 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-04-20 15:22:27.894 +03:00 [DBG] Connection id "0HMH2P1NG3QOP" stopped.
+2022-04-20 15:22:27.894 +03:00 [DBG] Connection id "0HMH2P1NG3QOQ" stopped.
+2022-04-20 15:22:27.897 +03:00 [DBG] Connection id "0HMH2P1NG3QOQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-04-20 15:22:27.897 +03:00 [DBG] Connection id "0HMH2P1NG3QOP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-04-20 15:22:28.130 +03:00 [DBG] Connection id "0HMH2P1NG3QOR" accepted.
+2022-04-20 15:22:28.134 +03:00 [DBG] Connection id "0HMH2P1NG3QOR" started.
+2022-04-20 15:22:28.212 +03:00 [DBG] Connection 0HMH2P1NG3QOR established using the following protocol: "Tls13"
+2022-04-20 15:22:28.302 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7107/swagger/index.html - -
+2022-04-20 15:22:28.347 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-04-20 15:22:28.474 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-04-20 15:22:28.654 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-04-20 15:22:28.657 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7107/_framework/aspnetcore-browser-refresh.js - -
+2022-04-20 15:22:28.660 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7107/swagger/index.html - - - 200 - text/html;charset=utf-8 364.6297ms
+2022-04-20 15:22:28.664 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7107/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 6.2308ms
+2022-04-20 15:22:29.053 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7107/swagger/v1/swagger.json - -
+2022-04-20 15:22:29.259 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7107/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 205.9074ms
+2022-04-20 15:22:39.332 +03:00 [DBG] Connection id "0HMH2P1NG3QOS" accepted.
+2022-04-20 15:22:39.333 +03:00 [DBG] Connection id "0HMH2P1NG3QOS" received FIN.
+2022-04-20 15:22:39.334 +03:00 [DBG] Connection id "0HMH2P1NG3QOS" started.
+2022-04-20 15:22:39.335 +03:00 [DBG] Connection id "0HMH2P1NG3QOT" accepted.
+2022-04-20 15:22:39.340 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-04-20 15:22:39.340 +03:00 [DBG] Connection id "0HMH2P1NG3QOT" started.
+2022-04-20 15:22:39.345 +03:00 [DBG] Connection id "0HMH2P1NG3QOS" stopped.
+2022-04-20 15:22:39.348 +03:00 [DBG] Connection id "0HMH2P1NG3QOS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-04-20 15:22:39.353 +03:00 [DBG] Connection 0HMH2P1NG3QOT established using the following protocol: "Tls13"
+2022-04-20 15:22:39.367 +03:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:7107/api/cities/1/pointsofinterest/1 - -
+2022-04-20 15:22:39.372 +03:00 [DBG] DELETE requests are not supported
+2022-04-20 15:22:39.413 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cities/1/pointsofinterest/1'
+2022-04-20 15:22:39.424 +03:00 [DBG] Endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)' with route pattern 'api/cities/{cityid}/pointsofinterest/{pointOfInterestId}' is valid for the request path '/api/cities/1/pointsofinterest/1'
+2022-04-20 15:22:39.431 +03:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)'
+2022-04-20 15:22:39.436 +03:00 [INF] Executing endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)'
+2022-04-20 15:22:39.485 +03:00 [INF] Route matched with {action = "DeletePointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] DeletePointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2022-04-20 15:22:39.489 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-04-20 15:22:39.491 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-04-20 15:22:39.493 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-04-20 15:22:39.496 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-04-20 15:22:39.498 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-04-20 15:22:39.501 +03:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2022-04-20 15:22:39.693 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-04-20 15:22:39.949 +03:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2022-04-20 15:22:39.955 +03:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' ...
+2022-04-20 15:22:39.959 +03:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' using the name 'cityId' in request data ...
+2022-04-20 15:22:39.961 +03:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2022-04-20 15:22:39.963 +03:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2022-04-20 15:22:39.964 +03:00 [DBG] Attempting to validate the bound parameter 'cityId' of type 'System.Int32' ...
+2022-04-20 15:22:39.968 +03:00 [DBG] Done attempting to validate the bound parameter 'cityId' of type 'System.Int32'.
+2022-04-20 15:22:39.971 +03:00 [DBG] Attempting to bind parameter 'pointOfInterestId' of type 'System.Int32' ...
+2022-04-20 15:22:39.973 +03:00 [DBG] Attempting to bind parameter 'pointOfInterestId' of type 'System.Int32' using the name 'pointOfInterestId' in request data ...
+2022-04-20 15:22:39.976 +03:00 [DBG] Done attempting to bind parameter 'pointOfInterestId' of type 'System.Int32'.
+2022-04-20 15:22:39.978 +03:00 [DBG] Done attempting to bind parameter 'pointOfInterestId' of type 'System.Int32'.
+2022-04-20 15:22:39.980 +03:00 [DBG] Attempting to validate the bound parameter 'pointOfInterestId' of type 'System.Int32' ...
+2022-04-20 15:22:39.981 +03:00 [DBG] Done attempting to validate the bound parameter 'pointOfInterestId' of type 'System.Int32'.
+2022-04-20 15:22:41.162 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.4' with options: None
+2022-04-20 15:22:41.230 +03:00 [DBG] Compiling query expression: 
+'DbSet<City>()
+    .Any(c => c.Id == __cityId_0)'
+2022-04-20 15:22:41.477 +03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: new SingleQueryingEnumerable<bool>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                SELECT 1
+                FROM Cities AS c
+                WHERE c.Id == @__cityId_0)), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+        CityInfo.API.DbContexts.CityInfoContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2022-04-20 15:22:41.540 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-04-20 15:22:41.642 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (95ms).
+2022-04-20 15:22:41.654 +03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 15:22:41.680 +03:00 [DBG] Opened connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 15:22:41.698 +03:00 [DBG] Executing DbCommand [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Cities" AS "c"
+    WHERE "c"."Id" = @__cityId_0)
+2022-04-20 15:22:41.738 +03:00 [INF] Executed DbCommand (44ms) [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Cities" AS "c"
+    WHERE "c"."Id" = @__cityId_0)
+2022-04-20 15:22:41.750 +03:00 [DBG] A data reader was disposed.
+2022-04-20 15:22:41.756 +03:00 [DBG] Closing connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 15:22:41.764 +03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 15:22:41.770 +03:00 [DBG] Compiling query expression: 
+'DbSet<PointOfInterest>()
+    .Where(p => p.CityId == p.Id && p.Id == __pointOfInterestId_0)
+    .FirstOrDefault()'
+2022-04-20 15:22:41.822 +03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<PointOfInterest>(
+    asyncEnumerable: new SingleQueryingEnumerable<PointOfInterest>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: PointOfInterest.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: PointOfInterest.CityId (int) Required FK Index, 1], [Property: PointOfInterest.Description (string) Required MaxLength(200), 2], [Property: PointOfInterest.Name (string) Required MaxLength(50), 3] }
+            SELECT TOP(1) p.Id, p.CityId, p.Description, p.Name
+            FROM PointsOfInterest AS p
+            WHERE (p.CityId == p.Id) && (p.Id == @__pointOfInterestId_0)), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, PointOfInterest>, 
+        CityInfo.API.DbContexts.CityInfoContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2022-04-20 15:22:41.843 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-04-20 15:22:41.845 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2022-04-20 15:22:41.849 +03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 15:22:41.853 +03:00 [DBG] Opened connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 15:22:41.855 +03:00 [DBG] Executing DbCommand [Parameters=[@__pointOfInterestId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."CityId", "p"."Description", "p"."Name"
+FROM "PointsOfInterest" AS "p"
+WHERE ("p"."CityId" = "p"."Id") AND ("p"."Id" = @__pointOfInterestId_0)
+LIMIT 1
+2022-04-20 15:22:41.861 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__pointOfInterestId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."CityId", "p"."Description", "p"."Name"
+FROM "PointsOfInterest" AS "p"
+WHERE ("p"."CityId" = "p"."Id") AND ("p"."Id" = @__pointOfInterestId_0)
+LIMIT 1
+2022-04-20 15:22:41.885 +03:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-04-20 15:22:41.924 +03:00 [DBG] A data reader was disposed.
+2022-04-20 15:22:41.925 +03:00 [DBG] Closing connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 15:22:41.927 +03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 15:22:41.948 +03:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-04-20 15:22:41.960 +03:00 [DBG] SaveChanges starting for 'CityInfoContext'.
+2022-04-20 15:22:41.965 +03:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2022-04-20 15:22:41.985 +03:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2022-04-20 15:22:42.055 +03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 15:22:42.058 +03:00 [DBG] Opened connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 15:22:42.063 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-04-20 15:22:42.072 +03:00 [DBG] Began transaction with isolation level 'Serializable'.
+2022-04-20 15:22:42.154 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-04-20 15:22:42.155 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2022-04-20 15:22:42.157 +03:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "PointsOfInterest"
+WHERE "Id" = @p0;
+SELECT changes();
+2022-04-20 15:22:42.201 +03:00 [INF] Executed DbCommand (43ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "PointsOfInterest"
+WHERE "Id" = @p0;
+SELECT changes();
+2022-04-20 15:22:42.212 +03:00 [DBG] A data reader was disposed.
+2022-04-20 15:22:42.217 +03:00 [DBG] Committing transaction.
+2022-04-20 15:22:42.221 +03:00 [DBG] Committed transaction.
+2022-04-20 15:22:42.225 +03:00 [DBG] Closing connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 15:22:42.227 +03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 15:22:42.231 +03:00 [DBG] Disposing transaction.
+2022-04-20 15:22:42.245 +03:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Deleted"' to '"Detached"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-04-20 15:22:42.250 +03:00 [DBG] SaveChanges completed for 'CityInfoContext' with 1 entities written to the database.
+2022-04-20 15:22:42.263 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2022-04-20 15:22:42.276 +03:00 [INF] Executed action CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) in 2765.8931ms
+2022-04-20 15:22:42.279 +03:00 [INF] Executed endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)'
+2022-04-20 15:22:42.283 +03:00 [DBG] Connection id "0HMH2P1NG3QOT" completed keep alive response.
+2022-04-20 15:22:42.288 +03:00 [DBG] 'CityInfoContext' disposed.
+2022-04-20 15:22:42.295 +03:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:7107/api/cities/1/pointsofinterest/1 - - - 204 - - 2927.5776ms
+2022-04-20 15:22:42.759 +03:00 [DBG] Connection id "0HMH2P1NG3QOR" received FIN.
+2022-04-20 15:22:42.762 +03:00 [DBG] Connection id "0HMH2P1NG3QOR" is closed. The last processed stream ID was 5.
+2022-04-20 15:22:42.764 +03:00 [DBG] Connection id "0HMH2P1NG3QOR" sending FIN because: "The client closed the connection."
+2022-04-20 15:22:42.775 +03:00 [DBG] Connection id "0HMH2P1NG3QOR" stopped.
+2022-04-20 15:22:50.588 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7107/api/cities/1/pointsofinterest/1 - -
+2022-04-20 15:22:50.590 +03:00 [DBG] The request path  does not match the path filter
+2022-04-20 15:22:50.592 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cities/1/pointsofinterest/1'
+2022-04-20 15:22:50.594 +03:00 [DBG] Endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointOfInterest (CityInfo.API)' with route pattern 'api/cities/{cityid}/pointsofinterest/{pointOfInterestId}' is valid for the request path '/api/cities/1/pointsofinterest/1'
+2022-04-20 15:22:50.596 +03:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointOfInterest (CityInfo.API)'
+2022-04-20 15:22:50.598 +03:00 [INF] Executing endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointOfInterest (CityInfo.API)'
+2022-04-20 15:22:50.608 +03:00 [INF] Route matched with {action = "GetPointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CityInfo.API.Models.PointOfInterestDto]]] GetPointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2022-04-20 15:22:50.611 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-04-20 15:22:50.613 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-04-20 15:22:50.615 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-04-20 15:22:50.617 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-04-20 15:22:50.619 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-04-20 15:22:50.621 +03:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2022-04-20 15:22:50.624 +03:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2022-04-20 15:22:50.626 +03:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' ...
+2022-04-20 15:22:50.628 +03:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' using the name 'cityId' in request data ...
+2022-04-20 15:22:50.629 +03:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2022-04-20 15:22:50.631 +03:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2022-04-20 15:22:50.632 +03:00 [DBG] Attempting to validate the bound parameter 'cityId' of type 'System.Int32' ...
+2022-04-20 15:22:50.634 +03:00 [DBG] Done attempting to validate the bound parameter 'cityId' of type 'System.Int32'.
+2022-04-20 15:22:50.635 +03:00 [DBG] Attempting to bind parameter 'pointOfInterestId' of type 'System.Int32' ...
+2022-04-20 15:22:50.637 +03:00 [DBG] Attempting to bind parameter 'pointOfInterestId' of type 'System.Int32' using the name 'pointOfInterestId' in request data ...
+2022-04-20 15:22:50.639 +03:00 [DBG] Done attempting to bind parameter 'pointOfInterestId' of type 'System.Int32'.
+2022-04-20 15:22:50.641 +03:00 [DBG] Done attempting to bind parameter 'pointOfInterestId' of type 'System.Int32'.
+2022-04-20 15:22:50.642 +03:00 [DBG] Attempting to validate the bound parameter 'pointOfInterestId' of type 'System.Int32' ...
+2022-04-20 15:22:50.644 +03:00 [DBG] Done attempting to validate the bound parameter 'pointOfInterestId' of type 'System.Int32'.
+2022-04-20 15:22:50.651 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.4' with options: None
+2022-04-20 15:22:50.662 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-04-20 15:22:50.663 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2022-04-20 15:22:50.665 +03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 15:22:50.666 +03:00 [DBG] Opened connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 15:22:50.668 +03:00 [DBG] Executing DbCommand [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Cities" AS "c"
+    WHERE "c"."Id" = @__cityId_0)
+2022-04-20 15:22:50.671 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Cities" AS "c"
+    WHERE "c"."Id" = @__cityId_0)
+2022-04-20 15:22:50.674 +03:00 [DBG] A data reader was disposed.
+2022-04-20 15:22:50.675 +03:00 [DBG] Closing connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 15:22:50.677 +03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 15:22:50.679 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-04-20 15:22:50.680 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2022-04-20 15:22:50.682 +03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 15:22:50.684 +03:00 [DBG] Opened connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 15:22:50.686 +03:00 [DBG] Executing DbCommand [Parameters=[@__pointOfInterestId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."CityId", "p"."Description", "p"."Name"
+FROM "PointsOfInterest" AS "p"
+WHERE ("p"."CityId" = "p"."Id") AND ("p"."Id" = @__pointOfInterestId_0)
+LIMIT 1
+2022-04-20 15:22:50.689 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__pointOfInterestId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."CityId", "p"."Description", "p"."Name"
+FROM "PointsOfInterest" AS "p"
+WHERE ("p"."CityId" = "p"."Id") AND ("p"."Id" = @__pointOfInterestId_0)
+LIMIT 1
+2022-04-20 15:22:50.694 +03:00 [DBG] A data reader was disposed.
+2022-04-20 15:22:50.695 +03:00 [DBG] Closing connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 15:22:50.698 +03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 15:22:50.744 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2022-04-20 15:22:50.750 +03:00 [DBG] No information found on request to perform content negotiation.
+2022-04-20 15:22:50.752 +03:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2022-04-20 15:22:50.756 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2022-04-20 15:22:50.758 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2022-04-20 15:22:50.956 +03:00 [INF] Executed action CityInfo.API.Controllers.PointsOfInterestController.GetPointOfInterest (CityInfo.API) in 334.5488ms
+2022-04-20 15:22:50.958 +03:00 [INF] Executed endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointOfInterest (CityInfo.API)'
+2022-04-20 15:22:50.960 +03:00 [DBG] Connection id "0HMH2P1NG3QOT" completed keep alive response.
+2022-04-20 15:22:50.961 +03:00 [DBG] 'CityInfoContext' disposed.
+2022-04-20 15:22:50.963 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7107/api/cities/1/pointsofinterest/1 - - - 404 161 application/problem+json;+charset=utf-8 374.8262ms
+2022-04-20 15:23:52.116 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-04-20 15:23:52.269 +03:00 [DBG] Hosting starting
+2022-04-20 15:23:52.470 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 8F20BB2A452B4E846954342834C2115C29D01053)
+2022-04-20 15:23:52.630 +03:00 [INF] Now listening on: https://localhost:7107
+2022-04-20 15:23:52.638 +03:00 [INF] Now listening on: http://localhost:5107
+2022-04-20 15:23:52.640 +03:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2022-04-20 15:23:52.642 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-04-20 15:23:52.643 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-04-20 15:23:52.644 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-20 15:23:52.647 +03:00 [INF] Hosting environment: Development
+2022-04-20 15:23:52.648 +03:00 [INF] Content root path: D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\
+2022-04-20 15:23:52.650 +03:00 [DBG] Hosting started
+2022-04-20 15:23:52.999 +03:00 [DBG] Connection id "0HMH2P2GT10QH" accepted.
+2022-04-20 15:23:52.999 +03:00 [DBG] Connection id "0HMH2P2GT10QG" accepted.
+2022-04-20 15:23:53.010 +03:00 [DBG] Connection id "0HMH2P2GT10QG" started.
+2022-04-20 15:23:53.010 +03:00 [DBG] Connection id "0HMH2P2GT10QH" started.
+2022-04-20 15:23:53.014 +03:00 [DBG] Connection id "0HMH2P2GT10QH" received FIN.
+2022-04-20 15:23:53.014 +03:00 [DBG] Connection id "0HMH2P2GT10QG" received FIN.
+2022-04-20 15:23:53.028 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-04-20 15:23:53.028 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-04-20 15:23:53.056 +03:00 [DBG] Connection id "0HMH2P2GT10QG" stopped.
+2022-04-20 15:23:53.056 +03:00 [DBG] Connection id "0HMH2P2GT10QH" stopped.
+2022-04-20 15:23:53.060 +03:00 [DBG] Connection id "0HMH2P2GT10QG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-04-20 15:23:53.060 +03:00 [DBG] Connection id "0HMH2P2GT10QH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-04-20 15:23:53.329 +03:00 [DBG] Connection id "0HMH2P2GT10QI" accepted.
+2022-04-20 15:23:53.331 +03:00 [DBG] Connection id "0HMH2P2GT10QI" started.
+2022-04-20 15:23:53.399 +03:00 [DBG] Connection 0HMH2P2GT10QI established using the following protocol: "Tls13"
+2022-04-20 15:23:53.488 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7107/swagger/index.html - -
+2022-04-20 15:23:53.542 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-04-20 15:23:53.662 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-04-20 15:23:53.790 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-04-20 15:23:53.795 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7107/swagger/index.html - - - 200 - text/html;charset=utf-8 318.6439ms
+2022-04-20 15:23:53.964 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7107/_framework/aspnetcore-browser-refresh.js - -
+2022-04-20 15:23:53.970 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7107/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 6.2813ms
+2022-04-20 15:23:54.215 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7107/swagger/v1/swagger.json - -
+2022-04-20 15:23:54.409 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7107/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 194.5162ms
+2022-04-20 15:23:55.483 +03:00 [DBG] Connection id "0HMH2P2GT10QJ" accepted.
+2022-04-20 15:23:55.483 +03:00 [DBG] Connection id "0HMH2P2GT10QJ" received FIN.
+2022-04-20 15:23:55.486 +03:00 [DBG] Connection id "0HMH2P2GT10QJ" started.
+2022-04-20 15:23:55.487 +03:00 [DBG] Connection id "0HMH2P2GT10QK" accepted.
+2022-04-20 15:23:55.492 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-04-20 15:23:55.494 +03:00 [DBG] Connection id "0HMH2P2GT10QK" started.
+2022-04-20 15:23:55.500 +03:00 [DBG] Connection id "0HMH2P2GT10QJ" stopped.
+2022-04-20 15:23:55.504 +03:00 [DBG] Connection id "0HMH2P2GT10QJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-04-20 15:23:55.514 +03:00 [DBG] Connection 0HMH2P2GT10QK established using the following protocol: "Tls13"
+2022-04-20 15:23:55.527 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7107/api/cities/1/pointsofinterest/6 - -
+2022-04-20 15:23:55.532 +03:00 [DBG] The request path  does not match the path filter
+2022-04-20 15:23:55.576 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cities/1/pointsofinterest/6'
+2022-04-20 15:23:55.583 +03:00 [DBG] Endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointOfInterest (CityInfo.API)' with route pattern 'api/cities/{cityid}/pointsofinterest/{pointOfInterestId}' is valid for the request path '/api/cities/1/pointsofinterest/6'
+2022-04-20 15:23:55.586 +03:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointOfInterest (CityInfo.API)'
+2022-04-20 15:23:55.590 +03:00 [INF] Executing endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointOfInterest (CityInfo.API)'
+2022-04-20 15:23:55.643 +03:00 [INF] Route matched with {action = "GetPointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CityInfo.API.Models.PointOfInterestDto]]] GetPointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2022-04-20 15:23:55.651 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-04-20 15:23:55.655 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-04-20 15:23:55.659 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-04-20 15:23:55.663 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-04-20 15:23:55.666 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-04-20 15:23:55.668 +03:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2022-04-20 15:23:55.847 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-04-20 15:23:56.128 +03:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2022-04-20 15:23:56.134 +03:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' ...
+2022-04-20 15:23:56.138 +03:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' using the name 'cityId' in request data ...
+2022-04-20 15:23:56.141 +03:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2022-04-20 15:23:56.142 +03:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2022-04-20 15:23:56.144 +03:00 [DBG] Attempting to validate the bound parameter 'cityId' of type 'System.Int32' ...
+2022-04-20 15:23:56.147 +03:00 [DBG] Done attempting to validate the bound parameter 'cityId' of type 'System.Int32'.
+2022-04-20 15:23:56.152 +03:00 [DBG] Attempting to bind parameter 'pointOfInterestId' of type 'System.Int32' ...
+2022-04-20 15:23:56.153 +03:00 [DBG] Attempting to bind parameter 'pointOfInterestId' of type 'System.Int32' using the name 'pointOfInterestId' in request data ...
+2022-04-20 15:23:56.156 +03:00 [DBG] Done attempting to bind parameter 'pointOfInterestId' of type 'System.Int32'.
+2022-04-20 15:23:56.157 +03:00 [DBG] Done attempting to bind parameter 'pointOfInterestId' of type 'System.Int32'.
+2022-04-20 15:23:56.159 +03:00 [DBG] Attempting to validate the bound parameter 'pointOfInterestId' of type 'System.Int32' ...
+2022-04-20 15:23:56.161 +03:00 [DBG] Done attempting to validate the bound parameter 'pointOfInterestId' of type 'System.Int32'.
+2022-04-20 15:23:57.356 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.4' with options: None
+2022-04-20 15:23:57.426 +03:00 [DBG] Compiling query expression: 
+'DbSet<City>()
+    .Any(c => c.Id == __cityId_0)'
+2022-04-20 15:23:57.670 +03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: new SingleQueryingEnumerable<bool>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                SELECT 1
+                FROM Cities AS c
+                WHERE c.Id == @__cityId_0)), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+        CityInfo.API.DbContexts.CityInfoContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2022-04-20 15:23:57.736 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-04-20 15:23:57.842 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (101ms).
+2022-04-20 15:23:57.856 +03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 15:23:57.887 +03:00 [DBG] Opened connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 15:23:57.896 +03:00 [DBG] Connection id "0HMH2P2GT10QI" received FIN.
+2022-04-20 15:23:57.898 +03:00 [DBG] Connection id "0HMH2P2GT10QI" is closed. The last processed stream ID was 5.
+2022-04-20 15:23:57.901 +03:00 [DBG] Connection id "0HMH2P2GT10QI" sending FIN because: "The client closed the connection."
+2022-04-20 15:23:57.909 +03:00 [DBG] Executing DbCommand [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Cities" AS "c"
+    WHERE "c"."Id" = @__cityId_0)
+2022-04-20 15:23:57.910 +03:00 [DBG] Connection id "0HMH2P2GT10QI" stopped.
+2022-04-20 15:23:57.951 +03:00 [INF] Executed DbCommand (49ms) [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Cities" AS "c"
+    WHERE "c"."Id" = @__cityId_0)
+2022-04-20 15:23:57.965 +03:00 [DBG] A data reader was disposed.
+2022-04-20 15:23:57.971 +03:00 [DBG] Closing connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 15:23:57.982 +03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 15:23:57.989 +03:00 [DBG] Compiling query expression: 
+'DbSet<PointOfInterest>()
+    .Where(p => p.CityId == p.Id && p.Id == __pointOfInterestId_0)
+    .FirstOrDefault()'
+2022-04-20 15:23:58.050 +03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<PointOfInterest>(
+    asyncEnumerable: new SingleQueryingEnumerable<PointOfInterest>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: PointOfInterest.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: PointOfInterest.CityId (int) Required FK Index, 1], [Property: PointOfInterest.Description (string) Required MaxLength(200), 2], [Property: PointOfInterest.Name (string) Required MaxLength(50), 3] }
+            SELECT TOP(1) p.Id, p.CityId, p.Description, p.Name
+            FROM PointsOfInterest AS p
+            WHERE (p.CityId == p.Id) && (p.Id == @__pointOfInterestId_0)), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, PointOfInterest>, 
+        CityInfo.API.DbContexts.CityInfoContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2022-04-20 15:23:58.066 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-04-20 15:23:58.067 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2022-04-20 15:23:58.069 +03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 15:23:58.071 +03:00 [DBG] Opened connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 15:23:58.073 +03:00 [DBG] Executing DbCommand [Parameters=[@__pointOfInterestId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."CityId", "p"."Description", "p"."Name"
+FROM "PointsOfInterest" AS "p"
+WHERE ("p"."CityId" = "p"."Id") AND ("p"."Id" = @__pointOfInterestId_0)
+LIMIT 1
+2022-04-20 15:23:58.077 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__pointOfInterestId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."CityId", "p"."Description", "p"."Name"
+FROM "PointsOfInterest" AS "p"
+WHERE ("p"."CityId" = "p"."Id") AND ("p"."Id" = @__pointOfInterestId_0)
+LIMIT 1
+2022-04-20 15:23:58.082 +03:00 [DBG] A data reader was disposed.
+2022-04-20 15:23:58.083 +03:00 [DBG] Closing connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 15:23:58.086 +03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 15:23:58.091 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2022-04-20 15:23:58.098 +03:00 [DBG] No information found on request to perform content negotiation.
+2022-04-20 15:23:58.099 +03:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2022-04-20 15:23:58.104 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2022-04-20 15:23:58.106 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2022-04-20 15:23:58.313 +03:00 [INF] Executed action CityInfo.API.Controllers.PointsOfInterestController.GetPointOfInterest (CityInfo.API) in 2638.7122ms
+2022-04-20 15:23:58.316 +03:00 [INF] Executed endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointOfInterest (CityInfo.API)'
+2022-04-20 15:23:58.318 +03:00 [DBG] Connection id "0HMH2P2GT10QK" completed keep alive response.
+2022-04-20 15:23:58.322 +03:00 [DBG] 'CityInfoContext' disposed.
+2022-04-20 15:23:58.327 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7107/api/cities/1/pointsofinterest/6 - - - 404 161 application/problem+json;+charset=utf-8 2799.3827ms
+2022-04-20 15:24:04.964 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7107/api/cities/1/pointsofinterest/ - -
+2022-04-20 15:24:04.966 +03:00 [DBG] The request path  does not match the path filter
+2022-04-20 15:24:04.971 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cities/1/pointsofinterest/'
+2022-04-20 15:24:04.973 +03:00 [DBG] Endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API)' with route pattern 'api/cities/{cityid}/pointsofinterest' is valid for the request path '/api/cities/1/pointsofinterest/'
+2022-04-20 15:24:04.977 +03:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API)'
+2022-04-20 15:24:04.979 +03:00 [INF] Executing endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API)'
+2022-04-20 15:24:04.986 +03:00 [INF] Route matched with {action = "GetPointsOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CityInfo.API.Models.PointOfInterestDto]]] GetPointsOfInterest(Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2022-04-20 15:24:04.988 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-04-20 15:24:04.990 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-04-20 15:24:04.992 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-04-20 15:24:04.995 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-04-20 15:24:04.997 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-04-20 15:24:05.001 +03:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2022-04-20 15:24:05.003 +03:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2022-04-20 15:24:05.006 +03:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' ...
+2022-04-20 15:24:05.007 +03:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' using the name 'cityId' in request data ...
+2022-04-20 15:24:05.009 +03:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2022-04-20 15:24:05.011 +03:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2022-04-20 15:24:05.013 +03:00 [DBG] Attempting to validate the bound parameter 'cityId' of type 'System.Int32' ...
+2022-04-20 15:24:05.016 +03:00 [DBG] Done attempting to validate the bound parameter 'cityId' of type 'System.Int32'.
+2022-04-20 15:24:05.021 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.4' with options: None
+2022-04-20 15:24:05.028 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-04-20 15:24:05.030 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2022-04-20 15:24:05.032 +03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 15:24:05.033 +03:00 [DBG] Opened connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 15:24:05.036 +03:00 [DBG] Executing DbCommand [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Cities" AS "c"
+    WHERE "c"."Id" = @__cityId_0)
+2022-04-20 15:24:05.038 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Cities" AS "c"
+    WHERE "c"."Id" = @__cityId_0)
+2022-04-20 15:24:05.042 +03:00 [DBG] A data reader was disposed.
+2022-04-20 15:24:05.043 +03:00 [DBG] Closing connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 15:24:05.045 +03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 15:24:05.055 +03:00 [DBG] Compiling query expression: 
+'DbSet<PointOfInterest>()
+    .Where(p => p.CityId == __cityId_0)'
+2022-04-20 15:24:05.062 +03:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<PointOfInterest>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: PointOfInterest.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: PointOfInterest.CityId (int) Required FK Index, 1], [Property: PointOfInterest.Description (string) Required MaxLength(200), 2], [Property: PointOfInterest.Name (string) Required MaxLength(50), 3] }
+        SELECT p.Id, p.CityId, p.Description, p.Name
+        FROM PointsOfInterest AS p
+        WHERE p.CityId == @__cityId_0), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, PointOfInterest>, 
+    CityInfo.API.DbContexts.CityInfoContext, 
+    False, 
+    False, 
+    True
+)'
+2022-04-20 15:24:05.066 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-04-20 15:24:05.067 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2022-04-20 15:24:05.068 +03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 15:24:05.070 +03:00 [DBG] Opened connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 15:24:05.072 +03:00 [DBG] Executing DbCommand [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."CityId", "p"."Description", "p"."Name"
+FROM "PointsOfInterest" AS "p"
+WHERE "p"."CityId" = @__cityId_0
+2022-04-20 15:24:05.076 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."CityId", "p"."Description", "p"."Name"
+FROM "PointsOfInterest" AS "p"
+WHERE "p"."CityId" = @__cityId_0
+2022-04-20 15:24:05.097 +03:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-04-20 15:24:05.132 +03:00 [DBG] A data reader was disposed.
+2022-04-20 15:24:05.133 +03:00 [DBG] Closing connection to database 'main' on server 'D:\PROGRAMMING\C#Projects\CityInfo\CityInfo.API\CityInfo.db'.
+2022-04-20 15:24:05.135 +03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2022-04-20 15:24:05.164 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2022-04-20 15:24:05.171 +03:00 [DBG] No information found on request to perform content negotiation.
+2022-04-20 15:24:05.172 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-04-20 15:24:05.174 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-04-20 15:24:05.176 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-04-20 15:24:05.179 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CityInfo.API.Models.PointOfInterestDto, CityInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-04-20 15:24:05.197 +03:00 [INF] Executed action CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) in 196.9574ms
+2022-04-20 15:24:05.201 +03:00 [INF] Executed endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API)'
+2022-04-20 15:24:05.203 +03:00 [DBG] Connection id "0HMH2P2GT10QK" completed keep alive response.
+2022-04-20 15:24:05.205 +03:00 [DBG] 'CityInfoContext' disposed.
+2022-04-20 15:24:05.207 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7107/api/cities/1/pointsofinterest/ - - - 200 100 application/json;+charset=utf-8 243.4306ms
